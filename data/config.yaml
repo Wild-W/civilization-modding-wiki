@@ -1,11 +1,11 @@
-name: Jacky Zhao
+name: Sukrit Tan
 enableToc: true
 openToc: false
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
-enableCallouts: false
+enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
