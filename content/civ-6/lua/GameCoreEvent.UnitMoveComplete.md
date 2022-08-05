@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitMoveComplete
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitMoveComplete**( *playerID*, *unitID*, *iX*, *iY* )
 * **playerID**    number
 * **unitID**    number

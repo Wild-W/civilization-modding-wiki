@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitOperationAdded
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitOperationAdded**( *playerID*, *unitID*, *iUnknown*, *hOperation* )
 * **playerID**    number
 * **unitID**    number

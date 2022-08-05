@@ -7,7 +7,7 @@ title: GameCoreEvent.PolicyChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **GameEvents.PolicyChanged**( *playerID*, *policyID*, *bEnacted* )
 * **playerID**    number
 * **policyID**    number

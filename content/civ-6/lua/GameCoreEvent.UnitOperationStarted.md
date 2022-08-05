@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitOperationStarted
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitOperationStarted**( *ownerID*, *unitID*, *operationID* )
 * **ownerID**    number
 * **unitID**    number

@@ -7,7 +7,7 @@ title: GameCoreEvent.OnPlayerTurnEnded
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **GameEvents.OnPlayerTurnEnded**(  )
 
 OnPlayerTurnEnded exists in GameEvents. It doesn't exist in Events.

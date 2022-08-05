@@ -7,7 +7,7 @@ title: GameCoreEvent.BarbarianSpottedCity
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.BarbarianSpottedCity**( *playerID*, *unitID*, *cityOwner*, *cityID* )
 * **playerID**    number
 * **unitID**    number

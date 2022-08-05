@@ -7,7 +7,7 @@ title: LocalMachineEvent.My2KLinkAccountResult
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.My2KLinkAccountResult**(  )
 
 My2KLinkAccountResult exists in GameEvents. It also exists in Events.

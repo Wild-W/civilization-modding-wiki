@@ -7,7 +7,7 @@ title: GameCoreEvent.ReligionFounded
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.ReligionFounded**( *playerID*, *religionID* )
 * **playerID**    number
 * **religionID**    number

@@ -7,7 +7,7 @@ title: GameCoreEvent.BuildingPillageStateChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **GameEvents.BuildingPillageStateChanged**( *playerID*, *cityID*, *buildingID*, *bPillageState* )
 * **playerID**    number
 * **cityID**    number

@@ -7,7 +7,7 @@ title: SerialEvent.CitySelectionChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.CitySelectionChanged**( *hexI*, *playerID*, *hexJ*, *isSelected*, *unitID*, *hexK*, *IsEditable* )
 * **hexI**    number
 * **playerID**    number

@@ -7,7 +7,7 @@ title: LocalMachineEvent.UserSetupWarning
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UserSetupWarning**(  )
 
 UserSetupWarning exists in GameEvents. It also exists in Events.

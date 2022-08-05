@@ -7,7 +7,7 @@ title: GameCoreEvent.ObjectPairing
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.ObjectPairing**( *eSubType*, *parentOwner*, *parentType*, *parentID*, *childOwner*, *childType*, *childID* )
 * **eSubType**    number
 * **parentOwner**

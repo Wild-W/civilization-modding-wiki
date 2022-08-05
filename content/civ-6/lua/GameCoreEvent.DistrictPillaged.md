@@ -7,7 +7,7 @@ title: GameCoreEvent.DistrictPillaged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.DistrictPillaged**( *ownerID*, *districtID*, *cityID*, *iX*, *iY*, *districtType*, *percentComplete*, *isPillaged* )
 * **ownerID**    number
 * **districtID**    number

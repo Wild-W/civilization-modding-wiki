@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitActivityChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitActivityChanged**( *playerID*, *unitID*, *eActivityType* )
 * **playerID**    number
 * **unitID**    number

@@ -7,7 +7,7 @@ title: GameCoreEvent.ImprovementActivated
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.ImprovementActivated**( *iX*, *iY*, *unitOwner*, *unitID*, *improvementType*, *improvementOwner*, *activationType* )
 * **iX**    number
 * **iY**    number

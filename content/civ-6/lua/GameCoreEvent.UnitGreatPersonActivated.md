@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitGreatPersonActivated
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitGreatPersonActivated**( *unitOwner*, *unitOwner*, *unitID*, *unitID*, *greatPersonClassID*, *greatPersonClassID*, *greatPersonIndividualID*, *greatPersonIndividualID* )
 * **unitOwner**
 * **unitOwner**    number

@@ -7,7 +7,7 @@ title: GameCoreEvent.CityAddedToMap
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.CityAddedToMap**( *playerID*, *cityID*, *iX*, *iY* )
 * **playerID**    number
 * **cityID**    number

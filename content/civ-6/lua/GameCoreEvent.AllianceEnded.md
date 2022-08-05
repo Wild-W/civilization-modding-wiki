@@ -7,7 +7,7 @@ title: GameCoreEvent.AllianceEnded
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.AllianceEnded**( *playerID*, *otherplayerID*, *AllianceType* )
 * **playerID**    number
 * **otherplayerID**    number

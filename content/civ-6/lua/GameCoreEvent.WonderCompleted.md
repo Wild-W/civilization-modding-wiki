@@ -7,7 +7,7 @@ title: GameCoreEvent.WonderCompleted
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.WonderCompleted**( *iX*, *iY*, *buildingIndex*, *playerIndex*, *cityID*, *iPercentComplete*, *iUnknown* )
 * **iX**    number
 * **iY**    number

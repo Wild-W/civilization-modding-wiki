@@ -7,7 +7,7 @@ title: GameCoreEvent.WorldTextMessage
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.WorldTextMessage**( *messageType*, *delay*, *iX*, *iY*, *text* )
 * **messageType**
 * **delay**

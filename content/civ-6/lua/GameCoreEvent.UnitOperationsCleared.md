@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitOperationsCleared
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitOperationsCleared**( *playerID*, *unitID*, *hCommand*, *iData1* )
 * **playerID**    number
 * **unitID**    number

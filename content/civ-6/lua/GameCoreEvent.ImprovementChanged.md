@@ -7,7 +7,7 @@ title: GameCoreEvent.ImprovementChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.ImprovementChanged**( *iX*, *iY*, *improvementType*, *improvementOwner*, *resource*, *isPillaged*, *isWorked* )
 * **iX**    number
 * **iY**    number

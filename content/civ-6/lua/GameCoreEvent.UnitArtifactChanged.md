@@ -7,7 +7,7 @@ title: GameCoreEvent.UnitArtifactChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.UnitArtifactChanged**( *playerID*, *unitID* )
 * **playerID**    number
 * **unitID**    number

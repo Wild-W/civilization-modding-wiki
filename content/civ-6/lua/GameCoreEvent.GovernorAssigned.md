@@ -7,7 +7,7 @@ title: GameCoreEvent.GovernorAssigned
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.GovernorAssigned**( *cityOwner*, *cityID*, *governorOwner*, *governorType* )
 * **cityOwner**
 * **cityID**    number

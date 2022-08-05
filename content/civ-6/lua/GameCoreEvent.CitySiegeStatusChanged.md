@@ -7,7 +7,7 @@ title: GameCoreEvent.CitySiegeStatusChanged
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **Events.CitySiegeStatusChanged**( *playerID*, *cityID*, *bIsBesieged* )
 * **playerID**    number
 * **cityID**    number

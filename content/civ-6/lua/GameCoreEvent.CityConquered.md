@@ -7,7 +7,7 @@ title: GameCoreEvent.CityConquered
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE]
+> [!EXAMPLE] Example
 > **GameEvents.CityConquered**( *newPlayerID*, *oldPlayerID*, *newCityID*, *iCityX*, *iCityY* )
 * **newPlayerID**    number
 * **oldPlayerID**    number
