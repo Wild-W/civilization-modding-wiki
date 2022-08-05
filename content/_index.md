@@ -10,7 +10,7 @@ Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-th
 4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
 5. Support for both Markdown Links and Wikilinks
 
-Check out some of the [[notes/showcase.md|amazing gardens that community members]] have published with Quartz or read about [[notes/philosophy.md|why I made Quartz]] to begin with.
+Check out some of the [[notes/showcase.md|amazing gardens that community members]] have published with Quartz or read about [[notes/philosophy.md|why I made Quartz]] to begin with?
 
 > [!INFO]
 > Testing
