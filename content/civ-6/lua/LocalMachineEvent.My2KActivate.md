@@ -7,7 +7,8 @@ title: LocalMachineEvent.My2KActivate
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE] Example
+> [!example] Example
+>
 > **Events.My2KActivate**(  )
 
 My2KActivate exists in GameEvents. It also exists in Events.

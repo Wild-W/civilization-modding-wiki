@@ -7,7 +7,8 @@ title: GameCoreEvent.GreatWorkCreated
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE] Example
+> [!example] Example
+>
 > **Events.GreatWorkCreated**( *playerID*, *unitID*, *iCityPlotX*, *iCityPlotY*, *buildingID*, *greatWorkID* )
 * **playerID**    number
 * **unitID**    number

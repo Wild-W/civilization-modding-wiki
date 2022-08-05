@@ -5,11 +5,13 @@ title: LocalMachineEvent.Camera_EnteringFreeCam
 ---
 # LocalMachineEvent.Camera_EnteringFreeCam
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
-> [!WARNING] Warning
+> [!warning] Warning 
+>
 > This Event has been scraped from the game's binaries, but has not been used by Firaxis in the game's various scripts. Use with caution!
 
 ## Usage
-> [!EXAMPLE] Example
+> [!example] Example
+>
 > **GameEvents.Camera_EnteringFreeCam**(  )
 
 Camera_EnteringFreeCam exists in GameEvents. It doesn't exist in Events.

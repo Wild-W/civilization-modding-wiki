@@ -7,7 +7,8 @@ title: GameCoreEvent.CityProductionUpdated
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE] Example
+> [!example] Example
+>
 > **Events.CityProductionUpdated**( *playerID*, *cityID*, *objectID*, *productionID* )
 * **playerID**    number
 * **cityID**    number

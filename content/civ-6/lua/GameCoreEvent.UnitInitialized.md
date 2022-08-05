@@ -7,7 +7,8 @@ title: GameCoreEvent.UnitInitialized
 This is an [Event](civ-6/lua/Events.md). Please refer to that page for more information on Events
 
 ## Usage
-> [!EXAMPLE] Example
+> [!example] Example
+>
 > **GameEvents.UnitInitialized**(  )
 
 UnitInitialized exists in GameEvents. It doesn't exist in Events.
