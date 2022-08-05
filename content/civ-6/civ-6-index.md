@@ -11,7 +11,6 @@ title: "Civ 6 Modding Index"
 
 ### Events
 - [Events](civ-6/lua/Events.md)
-- [GameEvents](civ-6/lua/GameEvents.md)
 
 ### Instances
 - [AiDiplomacy](civ-6/lua/AiDiplomacy.md)
