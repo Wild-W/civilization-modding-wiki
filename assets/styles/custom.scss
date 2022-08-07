@@ -25,5 +25,7 @@
   --outlinegray: #343434 !important;
 }
 
-
+code:not([class]) {
+  color: var(--primary);
+}
 
