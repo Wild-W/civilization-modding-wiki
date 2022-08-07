@@ -1,14 +1,16 @@
 ---
-title: "Civ 6 Modding Index"
+title: "Civ 6 Modding Index - Lua"
 ---
 
+> [!summary] Quick Links
+> 
+> * 🌙 [Lua](civ-6/civ-6-index-lua.md)
+> * 📝 [Database](civ-6/civ-6-index-database.md)
+
 ## Articles
-
-[Lua Articles](civ-6/lua/articles/articles-index.md)
-
+* [Lua Articles](civ-6/lua/articles/articles-index.md)
 
 ## Objects
-
 ### Events
 - [Events](civ-6/lua/Events.md)
 

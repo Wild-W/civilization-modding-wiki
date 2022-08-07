@@ -16,7 +16,7 @@ Check out some of the [[notes/showcase.md|amazing gardens that community members
 > Testing
 
 Just testing wikilinks: [[notes/updating]]
-[[civ-6/civ-6-index]]
+[[civ-6/civ-6-index-lua]]
 
 ## Get Started
 > 📚 Step 1: [[notes/setup.md|Setup your own digital garden using Quartz]]

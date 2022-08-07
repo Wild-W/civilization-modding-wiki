@@ -1,0 +1,48 @@
+---
+tags:
+- EffectType
+title: EFFECT_PLAYER_ADJUST_YIELD_FROM_EMBASSIES
+---
+This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer to that page for more information on Effect Type
+
+## Info
+> [!info] EFFECT_PLAYER_ADJUST_YIELD_FROM_EMBASSIES
+>
+> * Class: `Unknown`
+> * Parameters:
+>	* Amount `Unknown`
+>	* YieldType `Unknown`
+
+## Samples
+```SQL {title="DIPLOMATIC_QUARTER_EMBASSY_CULTURE"}
+INSERT INTO Modifiers
+	(
+		ModifierId,
+		ModifierType
+	)
+VALUES
+	(
+		"DIPLOMATIC_QUARTER_EMBASSY_CULTURE",
+		"MODIFIER_PLAYER_ADJUST_YIELD_FROM_EMBASSIES"
+	);
+
+INSERT INTO ModifierArguments
+	(
+		ModifierId,
+		Name,
+		Value
+	)
+VALUES
+	(
+		"DIPLOMATIC_QUARTER_EMBASSY_CULTURE",
+		"Amount",
+		1
+	),
+	(
+		"DIPLOMATIC_QUARTER_EMBASSY_CULTURE",
+		"YieldType",
+		"YIELD_CULTURE"
+	);
+	
+```
+
