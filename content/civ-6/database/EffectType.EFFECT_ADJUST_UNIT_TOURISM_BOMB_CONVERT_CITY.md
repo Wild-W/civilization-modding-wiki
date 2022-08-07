@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Convert `Boolean`
 
 ## Samples
+
 ```SQL {title="ROCKBAND_RELIGIOUS_ROCK"}
 INSERT INTO Modifiers
 	(

@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* StartEra `String`
 
 ## Samples
+
 ```SQL {title="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MODIFIER"}
 INSERT INTO Modifiers
 	(

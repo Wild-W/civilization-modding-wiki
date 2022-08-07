@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_KUMASI_CULTURE_TRADE_ROUTE_YIELD_BONUS"}
 INSERT INTO Modifiers
 	(

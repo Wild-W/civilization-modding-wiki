@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* LandVictorySpread `Boolean`
 
 ## Samples
+
 ```SQL {title="DISCIPLES_LAND_VICTORY_SPREAD"}
 INSERT INTO Modifiers
 	(

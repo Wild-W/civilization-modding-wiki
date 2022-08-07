@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Disable `Boolean`
 
 ## Samples
+
 ```SQL {title="CYBER_WARFARE_DISABLE_GRIEVANCE_DECAY"}
 INSERT INTO Modifiers
 	(

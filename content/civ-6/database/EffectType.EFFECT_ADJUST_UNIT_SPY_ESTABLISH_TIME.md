@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ReductionPercent `Integer`
 
 ## Samples
+
 ```SQL {title="SPY_DISGUISE"}
 INSERT INTO Modifiers
 	(

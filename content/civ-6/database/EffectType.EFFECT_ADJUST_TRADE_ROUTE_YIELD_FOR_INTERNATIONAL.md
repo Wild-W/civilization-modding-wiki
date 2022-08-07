@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="TRAIT_INTERNATIONAL_FAITH"}
 INSERT INTO Modifiers
 	(
@@ -47,6 +48,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_INTERCONTINENTAL_INTERNATIONAL_FAITH"}
 INSERT INTO Modifiers

@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GreatWorkSlotTypes.GreatWorkSlotType]
 
 ## Samples
+
 ```SQL {title="TRAIT_DOUBLE_ARCHAEOLOGY_SLOTS"}
 INSERT INTO Modifiers
 	(

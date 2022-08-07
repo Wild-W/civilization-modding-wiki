@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* GenerateLandAntiquities>		  GenerateSeaAntiquities
 
 ## Samples
+
 ```SQL {title="CIVIC_GENERATE_LAND_ANTIQUITIES"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="COMMEMORATION_EXPLORATION_CONTINENT_QUEST"}
 INSERT INTO Modifiers
 	(

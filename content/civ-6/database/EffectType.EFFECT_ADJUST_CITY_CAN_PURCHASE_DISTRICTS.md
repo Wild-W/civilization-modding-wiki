@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* CanPurchase `Boolean`
 
 ## Samples
+
 ```SQL {title="CONTRACTOR_ENABLE_DISTRICT_PURCHASE"}
 INSERT INTO Modifiers
 	(

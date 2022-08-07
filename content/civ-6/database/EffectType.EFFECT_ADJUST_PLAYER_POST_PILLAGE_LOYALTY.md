@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* The delta amount to change the city's current Loyalty
 
 ## Samples
+
 ```SQL {title="TRAIT_PILLAGE_DIMINISH_LOYALTY_IN_ENEMY_CITY"}
 INSERT INTO Modifiers
 	(

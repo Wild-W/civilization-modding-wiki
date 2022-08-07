@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Ignore `Boolean`
 
 ## Samples
+
 ```SQL {title="GRAND_VIZIER_ADJUST_IGNORE_CULTURAL_IDENTITY"}
 INSERT INTO Modifiers
 	(

@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Improvements.ImprovementType]
 
 ## Samples
+
 ```SQL {title="GAUL_MINE_CULTURE_BOMB"}
 INSERT INTO Modifiers
 	(
@@ -51,6 +52,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="BURIAL_GROUNDS_CULTURE_BOMB_TRIGGER_HOLY_SITE_MODIFIER"}
 INSERT INTO Modifiers
 	(
@@ -77,6 +79,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_CULTURE_BOMB_TRIGGER_FORT"}
 INSERT INTO Modifiers

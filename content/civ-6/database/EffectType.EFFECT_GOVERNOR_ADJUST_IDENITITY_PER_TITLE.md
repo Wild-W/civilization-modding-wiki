@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="COMMUNICATIONS_OFFICE_GOVERNOR_IDENTITY_PER_TITLE"}
 INSERT INTO Modifiers
 	(

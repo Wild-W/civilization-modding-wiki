@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ReplacesAll `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_REPLACE_MILITARY_SLOT_WITH_WILDCARD"}
 INSERT INTO Modifiers
 	(
@@ -48,6 +49,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_ALL_DIPLO_POLICY_ARE_WILDCARDS"}
 INSERT INTO Modifiers

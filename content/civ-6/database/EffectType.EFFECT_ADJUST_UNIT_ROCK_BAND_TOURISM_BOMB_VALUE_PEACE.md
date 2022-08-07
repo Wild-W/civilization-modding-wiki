@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="FLOWER_POWER_TOURISM_BOMB_CONCERT_VALUE"}
 INSERT INTO Modifiers
 	(

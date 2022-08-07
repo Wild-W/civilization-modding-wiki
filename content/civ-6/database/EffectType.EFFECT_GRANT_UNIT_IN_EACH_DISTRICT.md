@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitType `Unknown`
 
 ## Samples
+
 ```SQL {title="GREAT_PERSON_INDIVIDUAL_TUPAC_AMARU_ACTIVE"}
 INSERT INTO Modifiers
 	(

@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* 1>		  2
 
 ## Samples
+
 ```SQL {title="FUTURE_COUNTER_DIPLOMATIC_REFUND_VP_RESOLUTION"}
 INSERT INTO Modifiers
 	(

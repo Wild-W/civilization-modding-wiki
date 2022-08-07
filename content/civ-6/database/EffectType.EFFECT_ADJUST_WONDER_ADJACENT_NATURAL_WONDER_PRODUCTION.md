@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* FeatureType `String`
 
 ## Samples
+
 ```SQL {title="IKKIL_PRODUCTION_WONDER"}
 INSERT INTO Modifiers
 	(

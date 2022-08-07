@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Resources.ResourceType]
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GRANT_JEANS"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GovernmentSlots.GovernmentSlotType]
 
 ## Samples
+
 ```SQL {title="ALHAMBRA_MILITARY_GOVERNMENT_SLOT"}
 INSERT INTO Modifiers
 	(

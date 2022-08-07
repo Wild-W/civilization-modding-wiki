@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Enable `Boolean`
 
 ## Samples
+
 ```SQL {title="CIVIC_ENFORCE_BORDERS"}
 INSERT INTO Modifiers
 	(

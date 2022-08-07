@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* YieldType `String`
 
 ## Samples
+
 ```SQL {title="OPEN_AIR_MUSEUM_CULTURE_FOR_TERRAIN_CLASS_CITIES"}
 INSERT INTO Modifiers
 	(

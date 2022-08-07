@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Modifier `Integer`
 
 ## Samples
+
 ```SQL {title="FUTURE_COUNTER_CULTURE_TOURISM_REDUCTION"}
 INSERT INTO Modifiers
 	(

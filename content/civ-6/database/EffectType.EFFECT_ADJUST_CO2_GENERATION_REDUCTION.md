@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* RESOURCE_USAGE_UNIT
 
 ## Samples
+
 ```SQL {title="UNIT_CO2_REDUCTION"}
 INSERT INTO Modifiers
 	(

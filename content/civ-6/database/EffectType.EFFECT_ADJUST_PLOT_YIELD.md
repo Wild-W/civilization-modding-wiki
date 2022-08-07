@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="LADY_OF_THE_REEDS_PRODUCTION_MODIFIER"}
 INSERT INTO Modifiers
 	(
@@ -52,6 +53,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="GAUL_MINE_TOURISM"}
 INSERT INTO Modifiers

@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* SimpleModifierDescription `String`
 
 ## Samples
+
 ```SQL {title="STANDARD_DIPLOMATIC_GOVERNMENT_DIFFERENT"}
 INSERT INTO Modifiers
 	(
@@ -53,6 +54,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="STANDARD_DIPLOMATIC_GOVERNMENT_SAME"}
 INSERT INTO Modifiers

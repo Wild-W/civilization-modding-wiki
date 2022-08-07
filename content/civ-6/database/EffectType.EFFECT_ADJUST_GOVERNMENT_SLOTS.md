@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* GovernmentSlotType `String`
 
 ## Samples
+
 ```SQL {title="GOVT_ADD_WILDCARD_SLOT"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* TerrainType `String`
 
 ## Samples
+
 ```SQL {title="TRAIT_WORK_GRASS_MOUNTAIN"}
 INSERT INTO Modifiers
 	(

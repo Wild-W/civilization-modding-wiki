@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* CanAttack `Boolean`
 
 ## Samples
+
 ```SQL {title="NOMOVEANDSHOOT_MOVE_AND_ATTACK"}
 INSERT INTO Modifiers
 	(

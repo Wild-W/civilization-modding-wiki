@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* SameEraIntoleranceFlatBonus `Integer`
 
 ## Samples
+
 ```SQL {title="AGENDA_ADJUST_GOVERNMENT_INTOLERANCE"}
 INSERT INTO Modifiers
 	(

@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Units.UnitType]
 
 ## Samples
+
 ```SQL {title="CAPTURE_PRIZE_SHIPS"}
 INSERT INTO Modifiers
 	(
@@ -41,6 +42,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="CAPTURE_COMBAT_UNITS_AS_WORKERS"}
 INSERT INTO Modifiers

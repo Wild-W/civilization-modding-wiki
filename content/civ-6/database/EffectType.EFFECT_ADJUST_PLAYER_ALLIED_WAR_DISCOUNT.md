@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Discount `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_ADJUST_ALLIED_WAR_DISCOUNT"}
 INSERT INTO Modifiers
 	(

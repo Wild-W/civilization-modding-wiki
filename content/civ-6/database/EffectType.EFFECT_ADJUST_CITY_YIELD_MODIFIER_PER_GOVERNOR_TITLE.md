@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="TRAIT_ADJUST_CITY_CULTURE_PER_GOVERNOR_TITLE_MODIFIER"}
 INSERT INTO Modifiers
 	(

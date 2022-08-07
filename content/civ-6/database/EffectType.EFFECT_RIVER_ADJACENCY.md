@@ -18,6 +18,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="TRAIT_MONASTERIES_KING_HOLY_SITE_RIVER_ADJACENCY"}
 INSERT INTO Modifiers
 	(

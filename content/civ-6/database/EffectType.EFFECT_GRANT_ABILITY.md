@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ModifierId `String`
 
 ## Samples
+
 ```SQL {title="MISSIONARY_ZEAL_IGNORE_TERRAIN_MODIFIER"}
 INSERT INTO Modifiers
 	(
@@ -40,6 +41,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA"}
 INSERT INTO Modifiers

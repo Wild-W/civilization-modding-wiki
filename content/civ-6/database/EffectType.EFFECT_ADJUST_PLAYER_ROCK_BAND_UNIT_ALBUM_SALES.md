@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="NOBEL_PRIZE_LIT_FIRST_PLACE_ROCK_BAND_BUFF"}
 INSERT INTO Modifiers
 	(

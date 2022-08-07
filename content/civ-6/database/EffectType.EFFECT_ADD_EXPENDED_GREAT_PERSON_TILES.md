@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_EXPENDED_GREAT_PERSON_TILES"}
 INSERT INTO Modifiers
 	(

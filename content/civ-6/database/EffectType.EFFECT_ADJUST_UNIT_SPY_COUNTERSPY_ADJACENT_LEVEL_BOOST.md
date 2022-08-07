@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="SPY_SURVEILLANCE_ADJACENT_LEVEL"}
 INSERT INTO Modifiers
 	(

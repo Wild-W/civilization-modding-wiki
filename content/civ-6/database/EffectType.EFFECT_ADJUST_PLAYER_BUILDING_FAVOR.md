@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Favor `Integer`
 
 ## Samples
+
 ```SQL {title="DISINFORMATION_CAMPAIGN_BROADCAST_FAVOR"}
 INSERT INTO Modifiers
 	(

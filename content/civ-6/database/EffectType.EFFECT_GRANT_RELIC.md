@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* RelicSource `Unknown`
 
 ## Samples
+
 ```SQL {title="GOODY_CULTURE_GRANT_ONE_RELIC"}
 INSERT INTO Modifiers
 	(

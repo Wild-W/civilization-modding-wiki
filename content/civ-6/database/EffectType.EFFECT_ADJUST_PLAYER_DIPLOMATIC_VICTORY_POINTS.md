@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* VictoryResolution `Boolean`
 
 ## Samples
+
 ```SQL {title="STATUELIBERTY_DIPLOVP"}
 INSERT INTO Modifiers
 	(
@@ -50,6 +51,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="ADD_DIPLOMATIC_VICTORY_POINTS"}
 INSERT INTO Modifiers

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Unknown`
 
 ## Samples
+
 ```SQL {title="BIOSPHERE_GREEN_ENERGY_TOURISM"}
 INSERT INTO Modifiers
 	(

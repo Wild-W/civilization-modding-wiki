@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Followers `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_AMENITIES_FOR_MIN_FOLLOWERS"}
 INSERT INTO Modifiers
 	(

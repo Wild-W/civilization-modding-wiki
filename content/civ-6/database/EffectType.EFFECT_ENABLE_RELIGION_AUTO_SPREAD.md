@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Enable `Boolean`
 
 ## Samples
+
 ```SQL {title="RELIGIOUS_COLONIZATION_AUTO_SPREAD"}
 INSERT INTO Modifiers
 	(

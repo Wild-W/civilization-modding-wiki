@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="INITIATION_RITES_HEALING_DISPERSAL_MODIFIER"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Key `Unknown`
 
 ## Samples
+
 ```SQL {title="SECRET_SOCIETIES_ENABLE_VAMPIRE_PILLAGE_HEALING"}
 INSERT INTO Modifiers
 	(

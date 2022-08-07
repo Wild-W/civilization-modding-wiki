@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* AlwaysLoyal `Boolean`
 
 ## Samples
+
 ```SQL {title="STATUELIBERTY_CITIES_ALWAYS_LOYAL"}
 INSERT INTO Modifiers
 	(

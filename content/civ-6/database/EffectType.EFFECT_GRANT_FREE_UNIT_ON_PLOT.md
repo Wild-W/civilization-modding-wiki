@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitType `Unknown`
 
 ## Samples
+
 ```SQL {title="TOWERDEFENSE_SPAWN_ZOMBIE_ON_EACH_DEATH"}
 INSERT INTO Modifiers
 	(

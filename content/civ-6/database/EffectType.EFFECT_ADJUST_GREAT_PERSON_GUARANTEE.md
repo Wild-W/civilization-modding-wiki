@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GreatPersonClasses.GreatPersonClassType]
 
 ## Samples
+
 ```SQL {title="TRAIT_LEADER_COMANDANTE_GENERAL_GUARANTEE_CLASSICAL"}
 INSERT INTO Modifiers
 	(
@@ -47,6 +48,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_GUARANTEE_ONE_PROPHET"}
 INSERT INTO Modifiers

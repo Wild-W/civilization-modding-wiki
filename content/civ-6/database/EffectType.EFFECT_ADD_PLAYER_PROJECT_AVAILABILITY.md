@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ProjectType `String`
 
 ## Samples
+
 ```SQL {title="AID_REQUEST_GRANT_PROJECT"}
 INSERT INTO Modifiers
 	(

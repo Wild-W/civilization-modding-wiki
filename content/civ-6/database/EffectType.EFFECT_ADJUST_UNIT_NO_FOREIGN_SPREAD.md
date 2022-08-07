@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* NoSpread `Boolean`
 
 ## Samples
+
 ```SQL {title="NO_FOREIGN_SPREAD"}
 INSERT INTO Modifiers
 	(

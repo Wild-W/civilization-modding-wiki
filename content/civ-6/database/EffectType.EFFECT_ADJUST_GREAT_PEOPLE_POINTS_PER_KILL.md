@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GreatPersonClasses.GreatPersonClassType]
 
 ## Samples
+
 ```SQL {title="GARDE_GREAT_GENERAL_POINTS"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="MILITARY_EMERGENCY_MEMBER_COMBAT_STRENGTH_ATTACK"}
 INSERT INTO Modifiers
 	(

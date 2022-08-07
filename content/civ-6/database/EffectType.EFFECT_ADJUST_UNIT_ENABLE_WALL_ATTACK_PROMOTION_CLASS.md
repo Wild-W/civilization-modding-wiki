@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* PromotionClass `String`
 
 ## Samples
+
 ```SQL {title="ENABLE_WALL_ATTACK_MELEE"}
 INSERT INTO Modifiers
 	(

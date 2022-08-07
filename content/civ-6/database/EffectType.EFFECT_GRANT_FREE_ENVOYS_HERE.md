@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Unknown`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GAIN_THREE_ENVOYS_HERE"}
 INSERT INTO Modifiers
 	(

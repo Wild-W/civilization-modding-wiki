@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* GainTileRadius `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_TRADE_GAIN_TILES_EN_ROUTE"}
 INSERT INTO Modifiers
 	(

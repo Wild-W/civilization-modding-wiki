@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Type `String`
 
 ## Samples
+
 ```SQL {title="MOD_IGNORE_TERRAIN_COST"}
 INSERT INTO Modifiers
 	(

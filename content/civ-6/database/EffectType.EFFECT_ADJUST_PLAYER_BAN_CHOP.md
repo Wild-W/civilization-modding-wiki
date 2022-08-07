@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* NoRemove `Boolean`
 
 ## Samples
+
 ```SQL {title="WC_RES_DEFORESTATION_BAN"}
 INSERT INTO Modifiers
 	(

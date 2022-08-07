@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="TRAIT_FAITH_STRATEGIC_RESOURCES_TRADE_INTERNATIONAL"}
 INSERT INTO Modifiers
 	(

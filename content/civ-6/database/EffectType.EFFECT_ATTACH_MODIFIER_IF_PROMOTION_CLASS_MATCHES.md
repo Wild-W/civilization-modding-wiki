@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* Attach a modifier of the specified ID to the units matching the specified UnitPromotionClassType
 
 ## Samples
+
 ```SQL {title="APPLY_RES_UNIT_COMBAT_DEBUFF"}
 INSERT INTO Modifiers
 	(
@@ -41,6 +42,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="APPLY_RES_UNIT_COMBAT_BUFF"}
 INSERT INTO Modifiers

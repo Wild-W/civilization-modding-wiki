@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Favored `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_BEFRIEND_MINOR_CIV_HOME_CONTINENT"}
 INSERT INTO Modifiers
 	(

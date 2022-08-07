@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Overall `Boolean`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE"}
 INSERT INTO Modifiers
 	(
@@ -52,6 +53,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="DEFENSEOFMOTHERLAND_DOMESTICWARWEARINESS"}
 INSERT INTO Modifiers
 	(
@@ -83,6 +85,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_INCREASE_ENEMY_WAR_WEARINESS"}
 INSERT INTO Modifiers

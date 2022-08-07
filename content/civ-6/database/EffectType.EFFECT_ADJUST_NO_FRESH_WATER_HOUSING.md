@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* NoHousing `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_NO_FRESH_WATER_HOUSING"}
 INSERT INTO Modifiers
 	(

@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* YieldType `Unknown`
 
 ## Samples
+
 ```SQL {title="CHANCERY_COUNTERYSPY_SCIENCE"}
 INSERT INTO Modifiers
 	(

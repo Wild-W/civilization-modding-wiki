@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="TRAIT_TRADE_FOOD_FROM_CAMPS"}
 INSERT INTO Modifiers
 	(
@@ -60,6 +61,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_TRADE_GOLD_FROM_CAMPS"}
 INSERT INTO Modifiers

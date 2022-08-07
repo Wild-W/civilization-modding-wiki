@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* InternationalMinors `Boolean`
 
 ## Samples
+
 ```SQL {title="INTERNATIONAL_MAJOR_TRADE_ROUTES_DISABLED"}
 INSERT INTO Modifiers
 	(

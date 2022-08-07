@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* If set to true\, effect only applies to the target player. If false\, effect applies to all players based on the number of WMDs the target player has.
 
 ## Samples
+
 ```SQL {title="PLAYER_TARGET_WMD_BAN"}
 INSERT INTO Modifiers
 	(

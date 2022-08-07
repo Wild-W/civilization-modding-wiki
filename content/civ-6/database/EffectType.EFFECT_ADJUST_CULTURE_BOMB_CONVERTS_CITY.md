@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ConvertsCity `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_CULTURE_BOMB_CONVERTS_CITY"}
 INSERT INTO Modifiers
 	(

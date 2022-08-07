@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* YieldType `Unknown`
 
 ## Samples
+
 ```SQL {title="HERMETIC_ORDER_GREAT_ARTIST_LEY_LINE_CULTURE"}
 INSERT INTO Modifiers
 	(

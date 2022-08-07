@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* PromotionClass `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_ENABLE_WALL_ATTACK_LIGHT"}
 INSERT INTO Modifiers
 	(

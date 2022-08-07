@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Features.FeatureType]
 
 ## Samples
+
 ```SQL {title="TRAIT_FLOODPLAINS_VALID_GOVERNMENT"}
 INSERT INTO Modifiers
 	(

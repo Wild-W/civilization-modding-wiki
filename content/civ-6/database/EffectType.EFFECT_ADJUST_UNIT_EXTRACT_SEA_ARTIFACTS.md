@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Extract `Boolean`
 
 ## Samples
+
 ```SQL {title="CIVIC_EXTRACT_SEA_ARTIFACTS"}
 INSERT INTO Modifiers
 	(

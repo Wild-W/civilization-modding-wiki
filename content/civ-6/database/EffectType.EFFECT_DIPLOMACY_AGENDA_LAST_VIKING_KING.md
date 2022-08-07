@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* TopMilitaryBonus `Integer`
 
 ## Samples
+
 ```SQL {title="AGENDA_GREAT_WHITE_FLEET"}
 INSERT INTO Modifiers
 	(
@@ -67,6 +68,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="AGENDA_LAST_VIKING_KING"}
 INSERT INTO Modifiers

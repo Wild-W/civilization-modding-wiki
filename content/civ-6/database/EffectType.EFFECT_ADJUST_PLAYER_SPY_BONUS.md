@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Offense `Boolean`
 
 ## Samples
+
 ```SQL {title="CRYPTOGRAPHY_OFFENSE"}
 INSERT INTO Modifiers
 	(

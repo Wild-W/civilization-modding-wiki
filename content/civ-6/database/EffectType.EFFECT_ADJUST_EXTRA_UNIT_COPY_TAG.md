@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Tag `String`
 
 ## Samples
+
 ```SQL {title="VENETIAN_ARSENAL_EXTRANAVALMELEE"}
 INSERT INTO Modifiers
 	(

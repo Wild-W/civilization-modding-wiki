@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GREAT_PERSON_FREE_POINTS"}
 INSERT INTO Modifiers
 	(

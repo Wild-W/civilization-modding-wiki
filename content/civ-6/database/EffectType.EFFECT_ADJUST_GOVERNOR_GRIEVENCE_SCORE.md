@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Turns `Integer`
 
 ## Samples
+
 ```SQL {title="CAPOU_AGHA_ADJUST_GRIEVANCES"}
 INSERT INTO Modifiers
 	(

@@ -18,6 +18,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Scalar `Unknown`
 
 ## Samples
+
 ```SQL {title="TOWERDEFENSE_ZOMBIE_COMBAT_STRENGTH_FROM_PROPERTY"}
 INSERT INTO Modifiers
 	(
@@ -60,6 +61,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="DEFENDER_OF_FAITH_COMBAT_BONUS_MODIFIER"}
 INSERT INTO Modifiers
 	(
@@ -87,6 +89,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="SANGUINE_PACT_VAMPIRE_COMBAT_STRENGTH_FROM_PROPERTY"}
 INSERT INTO Modifiers
 	(
@@ -113,6 +116,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="SANGUINE_PACT_VAMPIRE_BARB_COMBAT_STRENGTH_FROM_PROPERTY"}
 INSERT INTO Modifiers

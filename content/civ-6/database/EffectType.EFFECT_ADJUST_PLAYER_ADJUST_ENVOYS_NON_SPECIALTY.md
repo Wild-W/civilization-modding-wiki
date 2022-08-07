@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_FREE_ENVOY_WHEN_DISTRICT_MADE"}
 INSERT INTO Modifiers
 	(

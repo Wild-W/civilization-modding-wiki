@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Domestic `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_FORBID_INTERNATIONAL_LAND_ROUTES"}
 INSERT INTO Modifiers
 	(

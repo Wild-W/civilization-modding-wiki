@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* Percentage of discount on strategic resources required for unit production.
 
 ## Samples
+
 ```SQL {title="BLACK_MARKETEER_STRATEGIC_RESOURCE_COST_DISCOUNT"}
 INSERT INTO Modifiers
 	(

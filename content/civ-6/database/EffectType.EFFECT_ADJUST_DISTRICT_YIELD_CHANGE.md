@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAMPUS"}
 INSERT INTO Modifiers
 	(

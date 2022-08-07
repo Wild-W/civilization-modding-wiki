@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Type `String`
 
 ## Samples
+
 ```SQL {title="HOLY_WATERS_HEALING_MODIFIER"}
 INSERT INTO Modifiers
 	(

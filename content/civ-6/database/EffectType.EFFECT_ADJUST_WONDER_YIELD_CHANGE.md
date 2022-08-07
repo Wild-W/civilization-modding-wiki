@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="DIVINE_INSPIRATION_WONDER_FAITH_MODIFIER"}
 INSERT INTO Modifiers
 	(

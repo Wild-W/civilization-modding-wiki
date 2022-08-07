@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* CanRaid `Boolean`
 
 ## Samples
+
 ```SQL {title="LOOT_GOLD_FROM_COASTAL_RAID"}
 INSERT INTO Modifiers
 	(
@@ -45,6 +46,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="UNIT_COASTAL_RAID"}
 INSERT INTO Modifiers

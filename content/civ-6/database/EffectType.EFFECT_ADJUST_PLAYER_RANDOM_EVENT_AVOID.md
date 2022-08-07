@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [RandomEvents.RandomEventType]
 
 ## Samples
+
 ```SQL {title="TRAIT_AVOID_MODERATE_FLOOD"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Skip `Boolean`
 
 ## Samples
+
 ```SQL {title="SKIP_FREE_CITY"}
 INSERT INTO Modifiers
 	(

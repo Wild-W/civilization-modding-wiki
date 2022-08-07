@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* SourceType `String`
 
 ## Samples
+
 ```SQL {title="HYDROELECTRIC_DAM_FREE_POWER"}
 INSERT INTO Modifiers
 	(

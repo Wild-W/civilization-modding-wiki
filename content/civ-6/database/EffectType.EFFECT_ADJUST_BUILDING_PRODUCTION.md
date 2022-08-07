@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Districts.DistrictType]
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_PRODUCTION_WALLS"}
 INSERT INTO Modifiers
 	(
@@ -48,6 +49,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="VETERANCY_ENCAMPMENT_BUILDINGS_PRODUCTION"}
 INSERT INTO Modifiers

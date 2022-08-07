@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Districts.DistrictType]
 
 ## Samples
+
 ```SQL {title="JESUIT_EDUCATION_SCIENCE_BUILDINGS_MODIFIER"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* DistrictType `String`
 
 ## Samples
+
 ```SQL {title="TRAIT_ROYAL_NAVY_DOCKYARD_NAVAL_UNIT"}
 INSERT INTO Modifiers
 	(

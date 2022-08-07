@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* DeltaWithOpponent `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_EACH_DIPLO_VISIBILITY_COMBAT_MODIFIER"}
 INSERT INTO Modifiers
 	(

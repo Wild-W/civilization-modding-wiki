@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ModifierId `Unknown`
 
 ## Samples
+
 ```SQL {title="SANGUINE_PACT_VAMPIRE_COMBAT_STRENGTH_ON_DEAD_UNIT_ADJACENT"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* DOMAIN_AIR>		  DOMAIN_LAND>		  DOMAIN_SEA
 
 ## Samples
+
 ```SQL {title="TRADE_ROUTE_PLUNDER_IMMUNITY_SEA"}
 INSERT INTO Modifiers
 	(

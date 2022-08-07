@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* DistanceChange `Integer`
 
 ## Samples
+
 ```SQL {title="ITINERANT_PREACHERS_SPREAD_DISTANCE"}
 INSERT INTO Modifiers
 	(

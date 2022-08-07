@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Percent `Integer`
 
 ## Samples
+
 ```SQL {title="HORATIO_NELSON_FLANKING_BONUS"}
 INSERT INTO Modifiers
 	(

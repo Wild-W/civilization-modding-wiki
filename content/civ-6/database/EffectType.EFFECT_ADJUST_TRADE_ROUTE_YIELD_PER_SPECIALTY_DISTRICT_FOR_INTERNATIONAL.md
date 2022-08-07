@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="COMMEMORATION_ECONOMIC_GA_TRADE_ROUTE_YIELDS"}
 INSERT INTO Modifiers
 	(

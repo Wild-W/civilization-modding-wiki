@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Buildings.BuildingType]
 
 ## Samples
+
 ```SQL {title="HUEY_ADDENTERTAINMENT"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Prevent `Boolean`
 
 ## Samples
+
 ```SQL {title="REINFORCED_INFRASTRUCTURE_PREVENET_STRUCTURAL_DAMAGE"}
 INSERT INTO Modifiers
 	(

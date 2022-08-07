@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* TechType `String`
 
 ## Samples
+
 ```SQL {title="TRAIT_CANAL_UNLOCK_MASONRY"}
 INSERT INTO Modifiers
 	(

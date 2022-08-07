@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_MUSCAT_COMMERCIAL_HUB_AMENITY_BONUS"}
 INSERT INTO Modifiers
 	(

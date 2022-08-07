@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Technologies.TechnologyType]
 
 ## Samples
+
 ```SQL {title="GREAT_PERSON_INDIVIDUAL_COMMANDANTE_UNIT_GOLD"}
 INSERT INTO Modifiers
 	(

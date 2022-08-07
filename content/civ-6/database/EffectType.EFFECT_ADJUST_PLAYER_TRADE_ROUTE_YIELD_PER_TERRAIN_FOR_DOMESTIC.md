@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* YieldType `String`
 
 ## Samples
+
 ```SQL {title="DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN"}
 INSERT INTO Modifiers
 	(

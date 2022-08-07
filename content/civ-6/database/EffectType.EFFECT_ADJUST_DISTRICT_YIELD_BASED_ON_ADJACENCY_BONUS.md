@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE"}
 INSERT INTO Modifiers
 	(

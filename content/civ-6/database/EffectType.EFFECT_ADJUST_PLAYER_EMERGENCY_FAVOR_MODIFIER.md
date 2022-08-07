@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Member `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_EMERGENCY_FAVOR_MODIFIER"}
 INSERT INTO Modifiers
 	(

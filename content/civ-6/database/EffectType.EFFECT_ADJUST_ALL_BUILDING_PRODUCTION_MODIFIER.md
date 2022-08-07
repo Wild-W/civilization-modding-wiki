@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* IsWonder `Boolean`
 
 ## Samples
+
 ```SQL {title="KILWA_SINGLE_ADDPRODUCTIONBUILDINGS"}
 INSERT INTO Modifiers
 	(
@@ -42,6 +43,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_LESS_BUILDING_PRODUCTION"}
 INSERT INTO Modifiers

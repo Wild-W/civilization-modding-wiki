@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* RandomHero `Unknown`
 
 ## Samples
+
 ```SQL {title="MODIFIER_DISCOVER_RANDOM_HERO"}
 INSERT INTO Modifiers
 	(

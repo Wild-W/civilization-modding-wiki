@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="ALLIANCE_YIELDS_FROM_FOLLOWING_ALLY_RELIGION"}
 INSERT INTO Modifiers
 	(

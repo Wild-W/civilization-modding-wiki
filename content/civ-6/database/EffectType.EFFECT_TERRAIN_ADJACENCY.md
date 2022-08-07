@@ -21,6 +21,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY"}
 INSERT INTO Modifiers
 	(
@@ -69,6 +70,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_NUSANTARA_COAST_HOLY_SITE"}
 INSERT INTO Modifiers

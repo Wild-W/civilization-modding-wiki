@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* NewOwner `String`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_BOUDICA_ACTIVE"}
 INSERT INTO Modifiers
 	(

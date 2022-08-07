@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Key `Unknown`
 
 ## Samples
+
 ```SQL {title="TOWERDEFENSE_INCREMENT_ZOMBIE_DEATHS"}
 INSERT INTO Modifiers
 	(

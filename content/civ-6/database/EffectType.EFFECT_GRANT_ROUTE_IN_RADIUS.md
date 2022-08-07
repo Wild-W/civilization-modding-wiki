@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Routes.RouteType]
 
 ## Samples
+
 ```SQL {title="GOLDENGATE_GRANT_ROUTES"}
 INSERT INTO Modifiers
 	(

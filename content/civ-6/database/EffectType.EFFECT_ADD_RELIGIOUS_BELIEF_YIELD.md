@@ -20,6 +20,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="CHURCH_PROPERTY_GOLD_CITY_MODIFIER"}
 INSERT INTO Modifiers
 	(
@@ -61,6 +62,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="LAY_MINISTRY_CULTURE_DISTRICTS_MODIFIER"}
 INSERT INTO Modifiers

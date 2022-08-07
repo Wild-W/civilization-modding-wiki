@@ -20,6 +20,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* RenaissanceEraAmount `Unknown`
 
 ## Samples
+
 ```SQL {title="MODIFIER_QUESTING_KNIGHT_ERA_STRENGTH"}
 INSERT INTO Modifiers
 	(

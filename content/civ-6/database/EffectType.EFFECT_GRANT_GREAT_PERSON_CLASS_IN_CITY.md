@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GreatPersonClasses.GreatPersonClassType]
 
 ## Samples
+
 ```SQL {title="STONEHENGE_GRANT_PROPHET"}
 INSERT INTO Modifiers
 	(

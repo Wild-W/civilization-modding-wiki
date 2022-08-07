@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="GREATPERSON_DOMESTIC_ROUTE_GOLD_PER_SPECIALTY_DISTRICT"}
 INSERT INTO Modifiers
 	(

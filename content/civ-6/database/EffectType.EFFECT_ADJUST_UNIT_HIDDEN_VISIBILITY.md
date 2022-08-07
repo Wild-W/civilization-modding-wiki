@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Hidden `Boolean`
 
 ## Samples
+
 ```SQL {title="UNIT_HIDDEN_VISIBILITY"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* LocationBuildingType `Unknown`
 
 ## Samples
+
 ```SQL {title="MODIFIER_CREATE_HERO_ANANSI"}
 INSERT INTO Modifiers
 	(

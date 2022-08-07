@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="LETTEROFMARQUE_TRADE_ROUTE_YIELD_DROP_DEST_CULTURE"}
 INSERT INTO Modifiers
 	(
@@ -53,6 +54,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="LETTEROFMARQUE_TRADE_ROUTE_YIELD_DROP_ORIG_CULTURE"}
 INSERT INTO Modifiers

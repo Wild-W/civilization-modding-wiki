@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ImprovementType `String`
 
 ## Samples
+
 ```SQL {title="ROCKBAND_SURF_ROCK_LEVEL"}
 INSERT INTO Modifiers
 	(

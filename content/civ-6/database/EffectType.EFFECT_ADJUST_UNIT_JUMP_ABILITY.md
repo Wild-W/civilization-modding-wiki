@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Range `Integer`
 
 ## Samples
+
 ```SQL {title="GDR_JUMP_ABILITY"}
 INSERT INTO Modifiers
 	(

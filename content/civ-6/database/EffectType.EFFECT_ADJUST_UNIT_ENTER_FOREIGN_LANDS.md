@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Enter `Boolean`
 
 ## Samples
+
 ```SQL {title="MOD_ENTER_FOREIGN_LANDS"}
 INSERT INTO Modifiers
 	(

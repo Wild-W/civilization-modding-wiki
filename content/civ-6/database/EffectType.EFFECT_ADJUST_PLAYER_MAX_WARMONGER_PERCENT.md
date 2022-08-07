@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* MaxPercent `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_FALLBABYLON_WARMONGER_MAX"}
 INSERT INTO Modifiers
 	(

@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* StatementKey `String`
 
 ## Samples
+
 ```SQL {title="AGENDA_SPIRIT_OF_TUCAPEL_GAINING_CITIES"}
 INSERT INTO Modifiers
 	(

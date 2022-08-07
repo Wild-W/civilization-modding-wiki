@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitType `String`
 
 ## Samples
+
 ```SQL {title="MUSIC_CENSORSHIP_BLOCK_ROCK_BAND_ENTRY"}
 INSERT INTO Modifiers
 	(

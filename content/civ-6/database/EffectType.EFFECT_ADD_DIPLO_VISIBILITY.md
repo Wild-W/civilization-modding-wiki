@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* DIPLO_SOURCE_ALL_NAMES>		  DIPLO_SOURCE_FEMALE_ONLY
 
 ## Samples
+
 ```SQL {title="GREATPERSON_DIPLO_VISIBILITY"}
 INSERT INTO Modifiers
 	(

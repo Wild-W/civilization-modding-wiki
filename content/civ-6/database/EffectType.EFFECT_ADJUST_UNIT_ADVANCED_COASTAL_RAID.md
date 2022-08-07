@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UseAdvancedCoastalRaid `Boolean`
 
 ## Samples
+
 ```SQL {title="CORSAIR_LESS_MOVEMENT_RAID"}
 INSERT INTO Modifiers
 	(

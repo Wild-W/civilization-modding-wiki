@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* TargetLargeCityPercentage `Integer`
 
 ## Samples
+
 ```SQL {title="AGENDA_END_TO_SUFFERING"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Protected `Boolean`
 
 ## Samples
+
 ```SQL {title="DEFENSE_LOGISTICS_SIEGE_PROTECTION"}
 INSERT INTO Modifiers
 	(

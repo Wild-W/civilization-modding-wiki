@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* HasBonus `Boolean`
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_MOHENJO_DARO_CITIES_FRESHWATER_HOUSING_BONUS"}
 INSERT INTO Modifiers
 	(

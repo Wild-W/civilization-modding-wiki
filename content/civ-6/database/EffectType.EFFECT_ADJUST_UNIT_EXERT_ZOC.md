@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Exert `Boolean`
 
 ## Samples
+
 ```SQL {title="SUPPRESSION_BONUS_EXERT_ZOC"}
 INSERT INTO Modifiers
 	(

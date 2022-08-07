@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* AddAmenity `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_ADD_AMENITY_PER_ADJACENT_LUXURY"}
 INSERT INTO Modifiers
 	(

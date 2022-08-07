@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* TurnsActive `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_FALLBABYLON_SURPRISE_MOVEMENT"}
 INSERT INTO Modifiers
 	(

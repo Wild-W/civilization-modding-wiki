@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [UnitPromotionClasses.PromotionClassType]
 
 ## Samples
+
 ```SQL {title="GREAT_PERSON_JOSE_DE_SUCRE_SPAWN_UNIT"}
 INSERT INTO Modifiers
 	(

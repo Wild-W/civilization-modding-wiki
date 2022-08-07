@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="ORSZAGHAZ_DOUBLE_FAVOR_SUZERAIN"}
 INSERT INTO Modifiers
 	(

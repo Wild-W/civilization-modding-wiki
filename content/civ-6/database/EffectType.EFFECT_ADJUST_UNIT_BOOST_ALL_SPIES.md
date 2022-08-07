@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Defense `Boolean`
 
 ## Samples
+
 ```SQL {title="SPY_QUARTERMASTER"}
 INSERT INTO Modifiers
 	(
@@ -40,6 +41,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="SPY_POLYGRAPH"}
 INSERT INTO Modifiers

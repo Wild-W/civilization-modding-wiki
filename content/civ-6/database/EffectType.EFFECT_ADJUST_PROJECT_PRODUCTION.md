@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Projects.ProjectType]
 
 ## Samples
+
 ```SQL {title="EDUCATOR_FASTER_MANHATTAN_PROJECT_RESEARCH"}
 INSERT INTO Modifiers
 	(

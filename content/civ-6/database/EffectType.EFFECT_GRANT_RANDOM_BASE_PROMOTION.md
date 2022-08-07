@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Promotions.PromotionType]
 
 ## Samples
+
 ```SQL {title="EMERGENCY_SOOTHSAYER_PROMOTION_TOP_TIER"}
 INSERT INTO Modifiers
 	(

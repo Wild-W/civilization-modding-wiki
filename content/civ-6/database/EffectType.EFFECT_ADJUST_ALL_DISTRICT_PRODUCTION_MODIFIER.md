@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="CITY_PATRON_GODDESS_DISTRICT_PRODUCTION_MODIFIER"}
 INSERT INTO Modifiers
 	(

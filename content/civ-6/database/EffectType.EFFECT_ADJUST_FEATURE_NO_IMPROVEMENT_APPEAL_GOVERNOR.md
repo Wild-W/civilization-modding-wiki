@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="FORESTRY_MANAGEMENT_FEATURE_NO_IMPROVEMENT_APPEAL"}
 INSERT INTO Modifiers
 	(

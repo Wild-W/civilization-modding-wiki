@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* The integer percent value of discount on strategic resources required for unit upgrades
 
 ## Samples
+
 ```SQL {title="PROFESSIONAL_ARMY_UPGRADE_RESOURCE_DISCOUNT"}
 INSERT INTO Modifiers
 	(

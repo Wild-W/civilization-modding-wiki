@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [UnitPromotionClasses.PromotionClassType]
 
 ## Samples
+
 ```SQL {title="TRAIT_ANCIENT_NAVAL_MELEE_PRODUCTION"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Modifiers.ModifierId]
 
 ## Samples
+
 ```SQL {title="CIVIC_REDUCE_RELIGIOUS_TOURISM"}
 INSERT INTO Modifiers
 	(

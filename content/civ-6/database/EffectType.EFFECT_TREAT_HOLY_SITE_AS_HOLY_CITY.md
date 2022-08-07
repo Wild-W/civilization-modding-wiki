@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Value `Integer`
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_JERUSALEM_HOLY_SITE_UPGRADE"}
 INSERT INTO Modifiers
 	(

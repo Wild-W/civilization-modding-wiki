@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitType `Unknown`
 
 ## Samples
+
 ```SQL {title="PYRAMID_ADJUST_BUILDER_CHARGES"}
 INSERT INTO Modifiers
 	(
@@ -42,6 +43,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="SECRET_SOCIETY_GRANT_TWO_VAMPIRE_BUILDS"}
 INSERT INTO Modifiers

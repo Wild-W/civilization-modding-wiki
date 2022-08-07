@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ModifierId `Unknown`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_CITY_STATE_ABSORB_EXPANSIONS"}
 INSERT INTO Modifiers
 	(

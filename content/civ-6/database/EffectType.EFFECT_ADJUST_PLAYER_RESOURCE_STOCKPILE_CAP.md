@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="BASILIKOI_PAIDES_ADJUST_RESOURCE_STOCKPILE_CAP"}
 INSERT INTO Modifiers
 	(

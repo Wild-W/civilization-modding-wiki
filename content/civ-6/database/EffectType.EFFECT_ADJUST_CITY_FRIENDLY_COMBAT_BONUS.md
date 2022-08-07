@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="HEAD_FALCONER_ADJUST_CITY_COMBAT_BONUS"}
 INSERT INTO Modifiers
 	(

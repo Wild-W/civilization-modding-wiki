@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="LOCAL_INFORMANTS_SPY_DEFENSE_BONUS"}
 INSERT INTO Modifiers
 	(

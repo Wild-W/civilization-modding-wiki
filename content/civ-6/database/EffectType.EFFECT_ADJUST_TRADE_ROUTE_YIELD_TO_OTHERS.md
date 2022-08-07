@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GOLD_TO_INCOMING_FOREIGN_ROUTES"}
 INSERT INTO Modifiers
 	(
@@ -51,6 +52,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="SURPLUS_LOGISTICS_TRADE_ROUTE_FOOD"}
 INSERT INTO Modifiers

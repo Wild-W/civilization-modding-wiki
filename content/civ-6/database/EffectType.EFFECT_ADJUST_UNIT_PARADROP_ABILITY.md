@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* CanDrop `Boolean`
 
 ## Samples
+
 ```SQL {title="SPEC_OPS_PARADROP_ABILITY"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ImmediateTradingPost `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_IMMEDIATE_TRADING_POST"}
 INSERT INTO Modifiers
 	(

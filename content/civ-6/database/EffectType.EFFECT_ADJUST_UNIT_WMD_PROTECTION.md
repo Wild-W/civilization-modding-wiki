@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* Percentage value of resistance to damage from WMD fallout.
 
 ## Samples
+
 ```SQL {title="GDR_WMD_RESISTANCE"}
 INSERT INTO Modifiers
 	(

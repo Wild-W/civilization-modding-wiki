@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ImprovedRouteLevel `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL"}
 INSERT INTO Modifiers
 	(

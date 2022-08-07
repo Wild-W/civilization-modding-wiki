@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Technologies.TechnologyType]
 
 ## Samples
+
 ```SQL {title="TRAIT_MAORI_MANA_SAILING"}
 INSERT INTO Modifiers
 	(

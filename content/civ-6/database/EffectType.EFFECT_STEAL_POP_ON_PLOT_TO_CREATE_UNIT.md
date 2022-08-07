@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitType `Unknown`
 
 ## Samples
+
 ```SQL {title="TOWERDEFENSE_KILL_POP_AND_SPAWN_ZOMBIE_ON_DISTRICT_ATTACKS"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* MinScore `Integer`
 
 ## Samples
+
 ```SQL {title="TAJ_MAHAL_EXTRA_ERA_SCORE"}
 INSERT INTO Modifiers
 	(

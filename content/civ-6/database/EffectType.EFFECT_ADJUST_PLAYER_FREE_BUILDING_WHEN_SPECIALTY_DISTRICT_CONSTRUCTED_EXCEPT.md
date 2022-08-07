@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* DistrictType `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_FREE_BUILDING_WHEN_DISTRICT_MADE_EXCEPT"}
 INSERT INTO Modifiers
 	(

@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ModifierId `String`
 
 ## Samples
+
 ```SQL {title="APPLY_DISABLE_UNIQUE_SUZERAIN_BONUS_TO_MINORCIVTYPES"}
 INSERT INTO Modifiers
 	(

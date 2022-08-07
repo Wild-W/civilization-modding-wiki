@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* DistrictType `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_FREE_ENVOY_WHEN_DISTRICT_MADE_SPECIFIC"}
 INSERT INTO Modifiers
 	(

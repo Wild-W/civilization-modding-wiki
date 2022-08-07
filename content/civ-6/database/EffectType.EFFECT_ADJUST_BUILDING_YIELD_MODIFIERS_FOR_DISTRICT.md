@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="FREEMARKET_BUILDING_YIELDS_HIGH_ADJACENCY"}
 INSERT INTO Modifiers
 	(

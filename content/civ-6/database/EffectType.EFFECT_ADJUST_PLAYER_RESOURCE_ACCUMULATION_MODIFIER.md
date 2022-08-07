@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Resources.ResourceType]
 
 ## Samples
+
 ```SQL {title="EQUESTRIAN_ORDERS_ADDITIONAL_HORSES_EXTRACTION"}
 INSERT INTO Modifiers
 	(

@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GreatPersonClasses.GreatPersonClassType]
 
 ## Samples
+
 ```SQL {title="TRAIT_SHRINE_WRITING_POINTS"}
 INSERT INTO Modifiers
 	(

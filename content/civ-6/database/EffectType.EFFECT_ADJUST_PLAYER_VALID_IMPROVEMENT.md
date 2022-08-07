@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Improvements.ImprovementType]
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_LA_VENTA_CAN_COLLOSSAL_HEAD"}
 INSERT INTO Modifiers
 	(

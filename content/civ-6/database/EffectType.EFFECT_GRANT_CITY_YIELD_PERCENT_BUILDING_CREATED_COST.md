@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* YieldType `String`
 
 ## Samples
+
 ```SQL {title="CARDINAL_CITADEL_OF_GOD_FAITH_FINISH_BUILDINGS"}
 INSERT INTO Modifiers
 	(

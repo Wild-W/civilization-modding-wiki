@@ -25,6 +25,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* StatementKey `String`
 
 ## Samples
+
 ```SQL {title="STANDARD_DIPLOMATIC_CULTURE_BOMBED"}
 INSERT INTO Modifiers
 	(
@@ -73,6 +74,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="STANDARD_DIPLOMATIC_CONVERTED_CITY"}
 INSERT INTO Modifiers
@@ -128,6 +130,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="AGENDA_CLEARS_BARBARIAN_CAMPS"}
 INSERT INTO Modifiers
 	(
@@ -171,6 +174,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="AGENDA_BACKSTAB_AVERSE_FRIEND"}
 INSERT INTO Modifiers
@@ -226,6 +230,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="AGENDA_ALLY_OF_ENKIDU_FRIEND"}
 INSERT INTO Modifiers
 	(
@@ -279,6 +284,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="STANDARD_DIPLOMATIC_OCCUPIED_CITY"}
 INSERT INTO Modifiers

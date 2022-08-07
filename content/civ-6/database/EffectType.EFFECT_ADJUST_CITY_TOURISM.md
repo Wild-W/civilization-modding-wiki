@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ScalingFactor `Integer`
 
 ## Samples
+
 ```SQL {title="TRAIT_WONDER_DOUBLETOURISM"}
 INSERT INTO Modifiers
 	(
@@ -50,6 +51,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="RELIQUARIES_RELIC_TOURISM_MODIFIER"}
 INSERT INTO Modifiers
@@ -83,6 +85,7 @@ VALUES
 	
 ```
 
+
 ```SQL {title="CRISTOREDENTOR_BEACHTOURISM"}
 INSERT INTO Modifiers
 	(
@@ -114,6 +117,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="STBASILS_ADDRELIGIOUSTOURISM"}
 INSERT INTO Modifiers

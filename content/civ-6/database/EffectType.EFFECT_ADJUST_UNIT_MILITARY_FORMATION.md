@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* ARMY_MILITARY_FORMATION>		  CORPS_MILITARY_FORMATION
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GAIUS_DUILIUS_ACTIVE"}
 INSERT INTO Modifiers
 	(

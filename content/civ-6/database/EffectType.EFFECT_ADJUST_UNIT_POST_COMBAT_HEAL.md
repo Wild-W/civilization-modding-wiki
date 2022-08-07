@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="TOMYRIS_HEAL_AFTER_DEFEATING_UNIT"}
 INSERT INTO Modifiers
 	(

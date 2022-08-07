@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [GovernmentBonusNames.GovernmentBonusType]
 
 ## Samples
+
 ```SQL {title="AUTOCRACY_WONDERS"}
 INSERT INTO Modifiers
 	(

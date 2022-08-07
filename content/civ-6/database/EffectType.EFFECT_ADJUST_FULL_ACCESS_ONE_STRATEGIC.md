@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Access `Boolean`
 
 ## Samples
+
 ```SQL {title="RESOURCEMANAGEMENT_FULL_ACCESS_ONE_STRATEGIC"}
 INSERT INTO Modifiers
 	(

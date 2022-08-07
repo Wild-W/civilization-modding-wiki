@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* TradeValuePerModifierPoint `Integer`
 
 ## Samples
+
 ```SQL {title="STANDARD_DIPLOMATIC_ONE_SIDED_TRADES"}
 INSERT INTO Modifiers
 	(

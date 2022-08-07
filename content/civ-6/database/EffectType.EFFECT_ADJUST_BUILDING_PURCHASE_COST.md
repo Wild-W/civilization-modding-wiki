@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Buildings.BuildingType]
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_VALLETTA_PURCHASE_CHEAPER_WALLS_BONUS"}
 INSERT INTO Modifiers
 	(

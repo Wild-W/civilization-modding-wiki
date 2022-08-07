@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitPromotionClass `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_CREATE_HIPPODROME_HEAVY_CAVALRY"}
 INSERT INTO Modifiers
 	(

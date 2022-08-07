@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Unknown`
 
 ## Samples
+
 ```SQL {title="PROJECT_COMPLETION_GRANT_TOURISM_BASED_ON_EXCESS_LUXURIES"}
 INSERT INTO Modifiers
 	(

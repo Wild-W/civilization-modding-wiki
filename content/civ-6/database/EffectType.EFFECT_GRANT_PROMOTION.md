@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Promotions.PromotionType]
 
 ## Samples
+
 ```SQL {title="MONT_ST_MICHEL_GRANT_MARTYR"}
 INSERT INTO Modifiers
 	(

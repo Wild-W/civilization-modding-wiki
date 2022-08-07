@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Origin `Boolean`
 
 ## Samples
+
 ```SQL {title="TRAIT_ORIGIN_DESTINATION_RELIGIOUS_PRESSURE"}
 INSERT INTO Modifiers
 	(

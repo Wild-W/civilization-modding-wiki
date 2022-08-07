@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Adopt `Boolean`
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_JERUSALEM_RELIGION_BONUS"}
 INSERT INTO Modifiers
 	(

@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* UnitType `Unknown`
 
 ## Samples
+
 ```SQL {title="PROJECT_COMPLETION_ZOMBIES_SHORT"}
 INSERT INTO Modifiers
 	(

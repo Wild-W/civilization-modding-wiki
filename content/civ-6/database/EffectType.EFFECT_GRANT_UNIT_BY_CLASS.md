@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [UnitPromotionClasses.PromotionClassType]
 
 ## Samples
+
 ```SQL {title="GOODY_MILITARY_GRANT_SCOUT"}
 INSERT INTO Modifiers
 	(

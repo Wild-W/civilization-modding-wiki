@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Eras.EraType]
 
 ## Samples
+
 ```SQL {title="GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS"}
 INSERT INTO Modifiers
 	(

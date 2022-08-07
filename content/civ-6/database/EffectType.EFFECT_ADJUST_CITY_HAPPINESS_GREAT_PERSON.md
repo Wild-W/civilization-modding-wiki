@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Happinesses.HappinessType]
 
 ## Samples
+
 ```SQL {title="TRAIT_SCIENTIST_HAPPY"}
 INSERT INTO Modifiers
 	(

@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Emergencies.EmergencyType]
 
 ## Samples
+
 ```SQL {title="PROJECT_COMPLETION_SEND_AID_TO_AID_REQUESTS"}
 INSERT INTO Modifiers
 	(

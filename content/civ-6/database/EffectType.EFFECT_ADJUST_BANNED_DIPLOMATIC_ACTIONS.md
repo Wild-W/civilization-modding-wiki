@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [DiplomaticActions.DiplomaticActionType]
 
 ## Samples
+
 ```SQL {title="TRAIT_NO_SUPRISE_WAR_FOR_CANADA"}
 INSERT INTO Modifiers
 	(

@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="NATIVECONQUEST_ADJUSTPOSTCOMBATYIELD"}
 INSERT INTO Modifiers
 	(
@@ -52,6 +53,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="GOD_OF_WAR_FAITH_KILLS_MODIFIER"}
 INSERT INTO Modifiers

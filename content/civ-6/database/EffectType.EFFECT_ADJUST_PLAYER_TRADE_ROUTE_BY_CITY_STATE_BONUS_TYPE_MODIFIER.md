@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="WC_RES_MODIFY_CITY_STATE_TRADE_YIELD"}
 INSERT INTO Modifiers
 	(

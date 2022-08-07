@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* KeepOverflow `Boolean`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL"}
 INSERT INTO Modifiers
 	(

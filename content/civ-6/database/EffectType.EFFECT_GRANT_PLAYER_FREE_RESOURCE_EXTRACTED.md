@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ResourceType `String`
 
 ## Samples
+
 ```SQL {title="GREATPERSON_GRANT_1_COAL_PER_TURN"}
 INSERT INTO Modifiers
 	(

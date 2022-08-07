@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_TRADING_POST_TECH_BOOST"}
 INSERT INTO Modifiers
 	(

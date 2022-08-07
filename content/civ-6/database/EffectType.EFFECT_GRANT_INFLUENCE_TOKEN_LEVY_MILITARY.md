@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="LEVY_MILITARY_TWO_FREE_ENVOYS"}
 INSERT INTO Modifiers
 	(

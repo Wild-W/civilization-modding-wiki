@@ -16,6 +16,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Improvements.ImprovementType]
 
 ## Samples
+
 ```SQL {title="TRAIT_BARBARIAN_CAMP_GOODY"}
 INSERT INTO Modifiers
 	(

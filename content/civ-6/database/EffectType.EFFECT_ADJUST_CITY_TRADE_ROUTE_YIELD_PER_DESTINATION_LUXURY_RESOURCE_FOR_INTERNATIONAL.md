@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="MINOR_CIV_AMSTERDAM_LUXURY_TRADE_ROUTE_BONUS"}
 INSERT INTO Modifiers
 	(

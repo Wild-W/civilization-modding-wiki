@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* NotSpecialty `Unknown`
 
 ## Samples
+
 ```SQL {title="TRAIT_INTERCONTINENTAL_DISTRICT_PRODUCTION"}
 INSERT INTO Modifiers
 	(
@@ -42,6 +43,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="POLICY_CULTURE_INDUSTRY_GA_PRODUCTION_DISTRICT"}
 INSERT INTO Modifiers

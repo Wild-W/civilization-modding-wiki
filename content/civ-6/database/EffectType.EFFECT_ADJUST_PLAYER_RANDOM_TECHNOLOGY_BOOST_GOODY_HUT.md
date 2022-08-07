@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* CAPTURED_CITY
 
 ## Samples
+
 ```SQL {title="GOODY_SCIENCE_GRANT_TWO_TECH_BOOSTS"}
 INSERT INTO Modifiers
 	(
@@ -45,6 +46,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER"}
 INSERT INTO Modifiers

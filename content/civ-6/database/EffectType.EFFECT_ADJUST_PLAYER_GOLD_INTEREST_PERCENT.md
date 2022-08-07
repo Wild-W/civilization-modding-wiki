@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Percent `Unknown`
 
 ## Samples
+
 ```SQL {title="GOVERNOR_PROMOTION_OWLS_OF_MINERVA_4_GOLD_INTEREST"}
 INSERT INTO Modifiers
 	(

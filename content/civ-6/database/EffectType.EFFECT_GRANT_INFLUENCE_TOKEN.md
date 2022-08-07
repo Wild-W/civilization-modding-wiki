@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="CIVIC_AWARD_ONE_INFLUENCE_TOKEN"}
 INSERT INTO Modifiers
 	(

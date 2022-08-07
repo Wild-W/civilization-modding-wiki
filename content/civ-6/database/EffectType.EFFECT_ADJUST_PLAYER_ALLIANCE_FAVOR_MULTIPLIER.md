@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Unknown`
 
 ## Samples
+
 ```SQL {title="POLICY_POPULAR_FRONT_ALLIANCE_FAVOR"}
 INSERT INTO Modifiers
 	(

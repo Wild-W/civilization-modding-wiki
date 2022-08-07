@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Eras.EraType]
 
 ## Samples
+
 ```SQL {title="GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION_MODIFIER"}
 INSERT INTO Modifiers
 	(
@@ -55,6 +56,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="GREATPERSON_CHESTER_NIMITZ_ACTIVE"}
 INSERT INTO Modifiers

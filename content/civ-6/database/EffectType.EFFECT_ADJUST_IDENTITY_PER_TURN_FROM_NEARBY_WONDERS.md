@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* ForeignCities `Unknown`
 
 ## Samples
+
 ```SQL {title="POLICY_MANDALA_STATE_WONDER_IDENTITY"}
 INSERT INTO Modifiers
 	(

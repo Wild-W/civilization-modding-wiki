@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [RealismSettings.RealismSettingType]
 
 ## Samples
+
 ```SQL {title="MEGADISASTERS_MODE_SET_REALISM_TO_MEGADISASTERS"}
 INSERT INTO Modifiers
 	(

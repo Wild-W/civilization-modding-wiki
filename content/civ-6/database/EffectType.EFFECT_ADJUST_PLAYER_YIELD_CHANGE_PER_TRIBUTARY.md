@@ -15,6 +15,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* [Yields.YieldType]
 
 ## Samples
+
 ```SQL {title="RAJ_GOLDPERTRIBUTARY"}
 INSERT INTO Modifiers
 	(

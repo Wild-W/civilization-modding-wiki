@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* IsWonder `Boolean`
 
 ## Samples
+
 ```SQL {title="AUTO_THEME_AT_LEAST_3_SLOTS"}
 INSERT INTO Modifiers
 	(

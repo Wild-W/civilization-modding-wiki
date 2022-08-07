@@ -17,6 +17,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >		* PLUNDER_CULTURE>		  PLUNDER_FAITH>		  PLUNDER_GOLD>		  PLUNDER_HEAL>		  PLUNDER_SCIENCE
 
 ## Samples
+
 ```SQL {title="TRAIT_LEADER_PILLAGE_SCIENCE_MINES"}
 INSERT INTO Modifiers
 	(

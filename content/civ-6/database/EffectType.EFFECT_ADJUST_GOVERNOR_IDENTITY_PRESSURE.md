@@ -19,6 +19,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* OncePerCity `Unknown`
 
 ## Samples
+
 ```SQL {title="TOQUI_DOMESTIC_LOYALTY"}
 INSERT INTO Modifiers
 	(
@@ -55,6 +56,7 @@ VALUES
 	);
 	
 ```
+
 
 ```SQL {title="TOQUI_FOREIGN_LOYALTY"}
 INSERT INTO Modifiers

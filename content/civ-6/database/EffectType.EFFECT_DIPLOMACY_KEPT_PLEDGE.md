@@ -18,6 +18,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* SimpleModifierDescription `String`
 
 ## Samples
+
 ```SQL {title="STANDARD_DIPLOMATIC_KEPT_PLEDGE"}
 INSERT INTO Modifiers
 	(

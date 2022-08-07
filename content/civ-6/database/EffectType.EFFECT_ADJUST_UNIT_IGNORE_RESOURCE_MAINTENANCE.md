@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Ignore `Boolean`
 
 ## Samples
+
 ```SQL {title="GREAT_PERSON_JOSE_DE_SUCRE_UNIT_NO_RESOURCE_MAINTENANCE"}
 INSERT INTO Modifiers
 	(

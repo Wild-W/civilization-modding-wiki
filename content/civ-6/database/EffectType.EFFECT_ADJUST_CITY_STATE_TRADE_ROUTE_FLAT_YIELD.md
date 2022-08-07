@@ -14,6 +14,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* YieldType `Unknown`
 
 ## Samples
+
 ```SQL {title="RAJ_CITY_TRADE_ROUTE_GOLD"}
 INSERT INTO Modifiers
 	(

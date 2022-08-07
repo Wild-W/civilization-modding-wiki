@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Tag `String`
 
 ## Samples
+
 ```SQL {title="TRAIT_NAVAL_MELEE_FAITH"}
 INSERT INTO Modifiers
 	(

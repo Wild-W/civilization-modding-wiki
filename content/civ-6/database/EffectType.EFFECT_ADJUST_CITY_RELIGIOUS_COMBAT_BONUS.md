@@ -13,6 +13,7 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 >	* Amount `Integer`
 
 ## Samples
+
 ```SQL {title="CARDINAL_GRAND_INQUISITOR_COMBAT"}
 INSERT INTO Modifiers
 	(
