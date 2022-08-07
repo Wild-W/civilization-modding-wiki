@@ -1,6 +1,7 @@
 ---
 title: "Civ 6 Modding Index - Database"
 ---
+# Civ 6 Modding Index - Database 
 
 > [!summary] Quick Links
 > 

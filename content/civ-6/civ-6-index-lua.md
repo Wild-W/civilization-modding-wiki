@@ -2,6 +2,8 @@
 title: "Civ 6 Modding Index - Lua"
 ---
 
+# Civ 6 Modding Index - Lua 
+
 > [!summary] Quick Links
 > 
 > * 🌙 [Lua](civ-6/civ-6-index-lua.md)
