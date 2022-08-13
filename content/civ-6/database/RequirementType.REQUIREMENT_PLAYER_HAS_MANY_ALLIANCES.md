@@ -45,4 +45,5 @@ VALUES
 		"MinOwnerAlliances",
 		1
 	);
-	```
+	
+```

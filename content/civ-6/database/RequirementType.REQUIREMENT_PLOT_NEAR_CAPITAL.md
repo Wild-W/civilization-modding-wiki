@@ -40,7 +40,8 @@ VALUES
 		"MinDistance",
 		10
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_OBJECT_6_TILES_FROM_CAPITAL"}
 INSERT INTO Requirements
@@ -67,4 +68,5 @@ VALUES
 		"MaxDistance",
 		6
 	);
-	```
+	
+```

@@ -27,6 +27,7 @@ VALUES
 		"REQUIREMENT_CITY_HAS_GARRISON_UNIT"
 	);
 
+
 ```
 
 ```SQL {title="REQUIRES_CITY_HAS_GARRISON_ARMY"}
@@ -54,4 +55,5 @@ VALUES
 		"MilitaryFormation",
 		"ARMY_MILITARY_FORMATION"
 	);
-	```
+	
+```

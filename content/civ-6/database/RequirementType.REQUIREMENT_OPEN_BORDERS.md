@@ -26,6 +26,7 @@ VALUES
 		"REQUIREMENT_OPEN_BORDERS"
 	);
 
+
 ```
 
 ```SQL {title="REQUIRES_PLAYER_NO_OPEN_BORDERS"}
@@ -55,4 +56,5 @@ VALUES
 		"GracePeriod",
 		2
 	);
-	```
+	
+```

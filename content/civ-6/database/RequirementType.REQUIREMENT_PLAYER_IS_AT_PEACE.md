@@ -39,7 +39,8 @@ VALUES
 		"Min Turns",
 		10
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_PLAYER_AT_PEACE"}
 INSERT INTO Requirements
@@ -52,5 +53,6 @@ VALUES
 		"REQUIRES_PLAYER_AT_PEACE",
 		"REQUIREMENT_PLAYER_IS_AT_PEACE"
 	);
+
 
 ```

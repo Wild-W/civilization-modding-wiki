@@ -40,4 +40,5 @@ VALUES
 		"ResourceType",
 		"RESOURCE_ALUMINUM"
 	);
-	```
+	
+```

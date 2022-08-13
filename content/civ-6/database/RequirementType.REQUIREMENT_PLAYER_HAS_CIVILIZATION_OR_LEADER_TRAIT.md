@@ -39,4 +39,5 @@ VALUES
 		"TraitType",
 		"TRAIT_CIVILIZATION_NOBEL_PRIZE"
 	);
-	```
+	
+```

@@ -58,7 +58,8 @@ VALUES
 		"TotalScoreThreshold",
 		0
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_IGNORES_BARBARIAN_CAMPS"}
 INSERT INTO Requirements
@@ -105,4 +106,5 @@ VALUES
 		"TotalScoreThreshold",
 		1
 	);
-	```
+	
+```

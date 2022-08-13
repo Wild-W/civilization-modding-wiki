@@ -45,4 +45,5 @@ VALUES
 		"FeatureType",
 		"FEATURE_GEOTHERMAL_FISSURE"
 	);
-	```
+	
+```

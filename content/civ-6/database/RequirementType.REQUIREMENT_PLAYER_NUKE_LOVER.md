@@ -52,7 +52,8 @@ VALUES
 		"UsedNukeValue",
 		1
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_LOW_NUKE_LOVE"}
 INSERT INTO Requirements
@@ -94,4 +95,5 @@ VALUES
 		"UsedNukeValue",
 		1
 	);
-	```
+	
+```

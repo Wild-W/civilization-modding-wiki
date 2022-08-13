@@ -45,4 +45,5 @@ VALUES
 		"RequirementSetId",
 		"CULTURE_VICTORY_ENOUGH_TOURISTS_REQUIREMENTS"
 	);
-	```
+	
+```

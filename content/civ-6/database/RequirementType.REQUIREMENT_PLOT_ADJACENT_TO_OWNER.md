@@ -45,7 +45,8 @@ VALUES
 		"MinDistance",
 		0
 	);
-	```
+	
+```
 
 ```SQL {title="ADJACENT_TO_OWNER"}
 INSERT INTO Requirements
@@ -58,5 +59,6 @@ VALUES
 		"ADJACENT_TO_OWNER",
 		"REQUIREMENT_PLOT_ADJACENT_TO_OWNER"
 	);
+
 
 ```

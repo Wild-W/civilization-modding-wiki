@@ -40,4 +40,5 @@ VALUES
 		"EraType",
 		"ERA_INDUSTRIAL"
 	);
-	```
+	
+```

@@ -51,4 +51,5 @@ VALUES
 		"StrengthRatio",
 		"1.2"
 	);
-	```
+	
+```

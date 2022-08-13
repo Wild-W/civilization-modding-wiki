@@ -39,4 +39,5 @@ VALUES
 		"MinHitsRequired",
 		1
 	);
-	```
+	
+```

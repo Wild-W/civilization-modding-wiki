@@ -39,4 +39,5 @@ VALUES
 		"BeliefType",
 		"BELIEF_PAPAL_PRIMACY"
 	);
-	```
+	
+```

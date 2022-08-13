@@ -53,7 +53,8 @@ VALUES
 		"MinRange",
 		0
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_PLOT_ADJACENT_HOLY_SITE"}
 INSERT INTO Requirements
@@ -85,7 +86,8 @@ VALUES
 		"MinRange",
 		0
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_NOT_ADJACENT_TO_AQUEDUCT"}
 INSERT INTO Requirements
@@ -119,4 +121,5 @@ VALUES
 		"MustBeFunctioning",
 		0
 	);
-	```
+	
+```

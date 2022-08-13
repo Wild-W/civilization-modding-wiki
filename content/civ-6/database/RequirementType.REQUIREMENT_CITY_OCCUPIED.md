@@ -26,6 +26,7 @@ VALUES
 		"REQUIREMENT_CITY_OCCUPIED"
 	);
 
+
 ```
 
 ```SQL {title="CITY_IS_OCCUPIED_REQUIREMENT"}
@@ -53,4 +54,5 @@ VALUES
 		"OnlyOwnersCity",
 		0
 	);
-	```
+	
+```

@@ -26,6 +26,7 @@ VALUES
 		"REQUIREMENT_CITY_HAS_GOVERNOR"
 	);
 
+
 ```
 
 ```SQL {title="REQUIRES_CITY_WITH_ASSIGNED_GOVERNOR"}
@@ -53,4 +54,5 @@ VALUES
 		"Established",
 		0
 	);
-	```
+	
+```

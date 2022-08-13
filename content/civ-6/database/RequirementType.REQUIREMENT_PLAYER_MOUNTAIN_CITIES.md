@@ -57,4 +57,5 @@ VALUES
 		"Percentage",
 		65
 	);
-	```
+	
+```

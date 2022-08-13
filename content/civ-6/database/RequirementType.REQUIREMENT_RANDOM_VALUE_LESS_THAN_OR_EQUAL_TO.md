@@ -52,7 +52,8 @@ VALUES
 		"Scaling",
 		"SCALING_HALF"
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIREMENT_DISTRICT_ZOMBIE_EFFECT_PERCENT_CHANCE"}
 INSERT INTO Requirements
@@ -89,4 +90,5 @@ VALUES
 		"PopulationScaling",
 		1
 	);
-	```
+	
+```

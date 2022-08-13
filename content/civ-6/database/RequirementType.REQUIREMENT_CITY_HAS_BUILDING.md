@@ -51,7 +51,8 @@ VALUES
 		"MustBeFunctioning",
 		0
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_CITY_HAS_AMPHITHEATER"}
 INSERT INTO Requirements
@@ -78,4 +79,5 @@ VALUES
 		"BuildingType",
 		"BUILDING_AMPHITHEATER"
 	);
-	```
+	
+```

@@ -48,7 +48,8 @@ VALUES
 		"UnitType",
 		"UNIT_GREAT_GENERAL"
 	);
-	```
+	
+```
 
 ```SQL {title="LLANERO_IS_ADJACENT_REQUIREMENT"}
 INSERT INTO Requirements
@@ -75,4 +76,5 @@ VALUES
 		"UnitType",
 		"UNIT_COLOMBIAN_LLANERO"
 	);
-	```
+	
+```

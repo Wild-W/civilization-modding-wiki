@@ -40,4 +40,5 @@ VALUES
 		"Type",
 		"GOLDEN"
 	);
-	```
+	
+```

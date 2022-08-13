@@ -40,4 +40,5 @@ VALUES
 		"UnitPromotionClass",
 		"PROMOTION_CLASS_RECON"
 	);
-	```
+	
+```

@@ -39,4 +39,5 @@ VALUES
 		"GreatPersonClass",
 		"GREAT_PERSON_CLASS_PROPHET"
 	);
-	```
+	
+```

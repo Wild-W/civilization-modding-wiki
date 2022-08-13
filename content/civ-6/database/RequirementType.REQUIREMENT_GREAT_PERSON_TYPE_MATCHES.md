@@ -40,4 +40,5 @@ VALUES
 		"GreatPersonClassType",
 		"GREAT_PERSON_CLASS_ADMIRAL"
 	);
-	```
+	
+```

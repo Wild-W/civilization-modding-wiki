@@ -40,4 +40,5 @@ VALUES
 		"PromotionClass",
 		"PROMOTION_CLASS_HEAVY_CAVALRY"
 	);
-	```
+	
+```

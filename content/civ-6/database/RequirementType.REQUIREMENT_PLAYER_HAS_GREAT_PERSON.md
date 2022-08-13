@@ -41,4 +41,5 @@ VALUES
 		"GreatPersonIndividual",
 		"GREAT_PERSON_INDIVIDUAL_ALEXANDER"
 	);
-	```
+	
+```

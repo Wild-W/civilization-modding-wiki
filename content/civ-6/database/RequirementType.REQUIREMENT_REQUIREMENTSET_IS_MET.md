@@ -40,7 +40,8 @@ VALUES
 		"RequirementSetId",
 		"AOE_ATOMIC_REQUIREMENTS"
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_WARMONGER_TRIGGER"}
 INSERT INTO Requirements
@@ -72,7 +73,8 @@ VALUES
 		"RequirementSetId",
 		"WARMONGER_TRIGGERS"
 	);
-	```
+	
+```
 
 ```SQL {title="PLOT_IS_DESERT_OR_DESERT_HILLS_REQUIREMENT"}
 INSERT INTO Requirements
@@ -85,5 +87,6 @@ VALUES
 		"PLOT_IS_DESERT_OR_DESERT_HILLS_REQUIREMENT",
 		"REQUIREMENT_REQUIREMENTSET_IS_MET"
 	);
+
 
 ```

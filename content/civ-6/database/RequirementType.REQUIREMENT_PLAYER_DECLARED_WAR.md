@@ -48,7 +48,8 @@ VALUES
 		"WhileMet",
 		1
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_PLAYER_DECLARED_JOINT_WAR"}
 INSERT INTO Requirements
@@ -75,7 +76,8 @@ VALUES
 		"WarType",
 		"JOINT_WAR"
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_PLAYER_DECLARED_WAR_EXCLUDE_SHARED_EMERGENCIES"}
 INSERT INTO Requirements
@@ -109,7 +111,8 @@ VALUES
 		"WhileMet",
 		1
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_PLAYER_DECLARED_WAR"}
 INSERT INTO Requirements
@@ -124,5 +127,6 @@ VALUES
 		"REQUIREMENT_PLAYER_DECLARED_WAR",
 		1
 	);
+
 
 ```

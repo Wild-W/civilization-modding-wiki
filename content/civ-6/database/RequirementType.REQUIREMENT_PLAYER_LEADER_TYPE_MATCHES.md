@@ -40,4 +40,5 @@ VALUES
 		"LeaderType",
 		"LEADER_AMANITORE"
 	);
-	```
+	
+```

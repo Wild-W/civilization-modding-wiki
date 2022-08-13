@@ -46,4 +46,5 @@ VALUES
 		"MinGameTurn",
 		60
 	);
-	```
+	
+```

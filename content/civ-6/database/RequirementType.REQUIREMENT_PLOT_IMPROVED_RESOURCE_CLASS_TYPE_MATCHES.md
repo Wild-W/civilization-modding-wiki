@@ -39,4 +39,5 @@ VALUES
 		"ResourceClassType",
 		"RESOURCECLASS_LUXURY"
 	);
-	```
+	
+```

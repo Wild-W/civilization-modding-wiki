@@ -39,4 +39,5 @@ VALUES
 		"OpponentCivLevel",
 		"CIVILIZATION_LEVEL_FULL_CIV"
 	);
-	```
+	
+```

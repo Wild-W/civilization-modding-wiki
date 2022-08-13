@@ -40,4 +40,5 @@ VALUES
 		"TransferType",
 		"BY_SETTLER"
 	);
-	```
+	
+```

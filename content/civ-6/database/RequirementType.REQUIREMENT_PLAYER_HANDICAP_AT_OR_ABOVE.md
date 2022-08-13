@@ -39,4 +39,5 @@ VALUES
 		"Handicap",
 		"DIFFICULTY_EMPEROR"
 	);
-	```
+	
+```

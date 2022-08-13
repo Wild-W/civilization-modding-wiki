@@ -51,4 +51,5 @@ VALUES
 		"Tag",
 		"CLASS_TRADER"
 	);
-	```
+	
+```

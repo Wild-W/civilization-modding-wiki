@@ -47,7 +47,8 @@ VALUES
 		"NoUpperBound",
 		1
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_HIGH_CITY_STATE_AGGRESSION"}
 INSERT INTO Requirements
@@ -79,4 +80,5 @@ VALUES
 		"UpperBound",
 		"-2"
 	);
-	```
+	
+```

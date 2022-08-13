@@ -39,4 +39,5 @@ VALUES
 		"CombatVersusType",
 		"COMBAT_DISTRICT_VS_UNIT"
 	);
-	```
+	
+```

@@ -26,4 +26,5 @@ VALUES
 		"REQUIREMENT_CITY_IS_POWERED"
 	);
 
+
 ```

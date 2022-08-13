@@ -39,4 +39,5 @@ VALUES
 		"Tag",
 		"CLASS_GODDESS_OF_FESTIVALS"
 	);
-	```
+	
+```

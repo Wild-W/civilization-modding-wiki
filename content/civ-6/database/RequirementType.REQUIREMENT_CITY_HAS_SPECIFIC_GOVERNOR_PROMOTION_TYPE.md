@@ -46,7 +46,8 @@ VALUES
 		"GovernorPromotionType",
 		"GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY"
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_AQUACULTURE"}
 INSERT INTO Requirements
@@ -73,4 +74,5 @@ VALUES
 		"GovernorPromotionType",
 		"GOVERNOR_PROMOTION_AQUACULTURE"
 	);
-	```
+	
+```

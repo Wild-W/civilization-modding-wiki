@@ -40,7 +40,8 @@ VALUES
 		"ExcludeBarbs",
 		1
 	);
-	```
+	
+```
 
 ```SQL {title="REQUIRE_THIS_COMBAT_RESULTS_IN_BARB_UNIT_DEATH"}
 INSERT INTO Requirements
@@ -67,4 +68,5 @@ VALUES
 		"OnlyBarbs",
 		1
 	);
-	```
+	
+```

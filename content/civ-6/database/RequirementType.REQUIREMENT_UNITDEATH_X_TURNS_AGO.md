@@ -51,7 +51,8 @@ VALUES
 		"Turns",
 		150
 	);
-	```
+	
+```
 
 ```SQL {title="HAS_BEEN_ONE_TURN_REQUIREMENT"}
 INSERT INTO Requirements
@@ -78,4 +79,5 @@ VALUES
 		"Turns",
 		1
 	);
-	```
+	
+```

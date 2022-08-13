@@ -219,4 +219,4 @@ for row in requirementTypes:
 						)
 				# -----------------------------
 				# -----------------------------
-				object_file.write('```\n')
+				object_file.write('\n```\n')

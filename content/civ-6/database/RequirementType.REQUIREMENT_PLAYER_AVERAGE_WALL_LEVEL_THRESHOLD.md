@@ -45,4 +45,5 @@ VALUES
 		"AverageWallLevelThreshold",
 		"1.0"
 	);
-	```
+	
+```

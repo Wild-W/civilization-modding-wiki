@@ -40,4 +40,5 @@ VALUES
 		"ResourceClassType",
 		"RESOURCECLASS_BONUS"
 	);
-	```
+	
+```

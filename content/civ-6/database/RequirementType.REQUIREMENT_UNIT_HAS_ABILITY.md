@@ -41,4 +41,5 @@ VALUES
 		"UnitAbilityType",
 		"ABILITY_GREAT_GENERAL_SINGLE_STRENGTH"
 	);
-	```
+	
+```

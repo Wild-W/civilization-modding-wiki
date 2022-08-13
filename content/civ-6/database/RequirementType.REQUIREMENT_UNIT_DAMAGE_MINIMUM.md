@@ -39,4 +39,5 @@ VALUES
 		"MinimumAmount",
 		1
 	);
-	```
+	
+```

@@ -40,4 +40,5 @@ VALUES
 		"MinimumEraType",
 		"ERA_INFORMATION"
 	);
-	```
+	
+```

@@ -45,7 +45,8 @@ VALUES
 		"Tag",
 		"CLASS_RELIGIOUS_ALL"
 	);
-	```
+	
+```
 
 ```SQL {title="ADJACENT_FRIENDLY_DRONE_UNIT_REQUIREMENT"}
 INSERT INTO Requirements
@@ -72,4 +73,5 @@ VALUES
 		"Tag",
 		"CLASS_DRONE"
 	);
-	```
+	
+```
