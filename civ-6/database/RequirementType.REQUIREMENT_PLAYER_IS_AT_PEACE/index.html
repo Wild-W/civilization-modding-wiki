@@ -9,7 +9,7 @@ Info  [!info] REQUIREMENT_PLAYER_IS_AT_PEACE"><title>REQUIREMENT_PLAYER_IS_AT_PE
 <script src=https://sukritact.github.io/civilization-modding-wiki/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
 <script src=https://sukritact.github.io/civilization-modding-wiki/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
 <script src=https://sukritact.github.io/civilization-modding-wiki/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
-<script>const BASE_URL="https://sukritact.github.io/civilization-modding-wiki/",fetchData=Promise.all([fetch("https://sukritact.github.io/civilization-modding-wiki/indices/linkIndex.d1382fe55efeb40cef48a7740ca96ffa.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://sukritact.github.io/civilization-modding-wiki/indices/contentIndex.46d90fb8a0128ebd6738092fe36a0ffd.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const n=new URL(BASE_URL),s=n.pathname,o=window.location.pathname,i=s==o;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts();const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=i&&!1;drawGraph("https://sukritact.github.io/civilization-modding-wiki",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2}),initPopover("https://sukritact.github.io/civilization-modding-wiki",!0,!0)},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})}</script><script type=module>
+<script>const BASE_URL="https://sukritact.github.io/civilization-modding-wiki/",fetchData=Promise.all([fetch("https://sukritact.github.io/civilization-modding-wiki/indices/linkIndex.d1382fe55efeb40cef48a7740ca96ffa.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://sukritact.github.io/civilization-modding-wiki/indices/contentIndex.f5af607413189f4a23beb38ec6e5c257.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const n=new URL(BASE_URL),s=n.pathname,o=window.location.pathname,i=s==o;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts();const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=i&&!1;drawGraph("https://sukritact.github.io/civilization-modding-wiki",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2}),initPopover("https://sukritact.github.io/civilization-modding-wiki",!0,!0)},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})}</script><script type=module>
     import { attachSPARouting } from "https:\/\/sukritact.github.io\/civilization-modding-wiki\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
     attachSPARouting(init, render)
   </script></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
@@ -43,18 +43,6 @@ Aug 13, 2022
 </span><span class=lnt>23
 </span><span class=lnt>24
 </span><span class=lnt>25
-</span><span class=lnt>26
-</span><span class=lnt>27
-</span><span class=lnt>28
-</span><span class=lnt>29
-</span><span class=lnt>30
-</span><span class=lnt>31
-</span><span class=lnt>32
-</span><span class=lnt>33
-</span><span class=lnt>34
-</span><span class=lnt>35
-</span><span class=lnt>36
-</span><span class=lnt>37
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-SQL data-lang=SQL><span class=line><span class=cl><span class=k>INSERT</span><span class=w> </span><span class=k>INTO</span><span class=w> </span><span class=n>Requirements</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>	</span><span class=p>(</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>		</span><span class=n>RequirementId</span><span class=p>,</span><span class=w>
@@ -79,10 +67,18 @@ Aug 13, 2022
 </span></span></span><span class=line><span class=cl><span class=w>		</span><span class=s2>&#34;Min Turns&#34;</span><span class=p>,</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>		</span><span class=mi>10</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>	</span><span class=p>);</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>	</span><span class=o>```</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=o>```</span><span class=k>SQL</span><span class=w> </span><span class=err>{</span><span class=n>title</span><span class=o>=</span><span class=s2>&#34;REQUIRES_PLAYER_AT_PEACE&#34;</span><span class=err>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=k>INSERT</span><span class=w> </span><span class=k>INTO</span><span class=w> </span><span class=n>Requirements</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>	
+</span></span></span></code></pre></td></tr></table></div></div><div class=highlight title=REQUIRES_PLAYER_AT_PEACE><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-SQL data-lang=SQL><span class=line><span class=cl><span class=k>INSERT</span><span class=w> </span><span class=k>INTO</span><span class=w> </span><span class=n>Requirements</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>	</span><span class=p>(</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>		</span><span class=n>RequirementId</span><span class=p>,</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>		</span><span class=n>RequirementType</span><span class=w>
