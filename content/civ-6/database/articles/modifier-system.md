@@ -36,4 +36,4 @@ The Owner is not explicitly defined as part of the modifier's definition: instea
 
 The Subject is determined by a combination of the Owner and the modifier's **Collection Type**. `COLLECTION_PLAYER_PLOT_YIELDS` targets Plot/Hexes owned by the Player which owns the modifier.
 
-Both Objects and Subjects can have [Requirement Sets](civ-6/database/articles/requirement-sets.md) associated with them. Requirement Sets are a collection of [Requirements](civ-6/database/articles/requirement-types-list.md) which must be met before the Modifier will take effect. For instance, you can use `PLOT_HAS_TUNDRA_REQUIREMENTS` as a Subject Requirement Set to restrict a modifier to affecting objects on tiles with Tundra.
+Both Objects and Subjects can have [Requirement Sets](civ-6/database/articles/requirement-sets.md) associated with them. Requirement Sets are a collection of [Requirements](civ-6/database/articles/requirement-types.md) which must be met before the Modifier will take effect. For instance, you can use `PLOT_HAS_TUNDRA_REQUIREMENTS` as a Subject Requirement Set to restrict a modifier to affecting objects on tiles with Tundra.

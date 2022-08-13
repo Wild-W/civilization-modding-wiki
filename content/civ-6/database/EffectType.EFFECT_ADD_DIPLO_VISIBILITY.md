@@ -12,9 +12,17 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 > * Parameters:
 >	* Amount `Integer`
 >	* Source `String`
->		* SOURCE_ALLY>		  SOURCE_DELEGATE>		  SOURCE_GREAT_PERSON_JOURNALISM>		  SOURCE_SPY>		  SOURCE_TECH>		  SOURCE_TRADER>		  SOURCE_TRADING_POST_TRAIT>		  SOURCE_TRAIT
+>		* SOURCE_ALLY
+>		  SOURCE_DELEGATE
+>		  SOURCE_GREAT_PERSON_JOURNALISM
+>		  SOURCE_SPY
+>		  SOURCE_TECH
+>		  SOURCE_TRADER
+>		  SOURCE_TRADING_POST_TRAIT
+>		  SOURCE_TRAIT
 >	* SourceType `String`
->		* DIPLO_SOURCE_ALL_NAMES>		  DIPLO_SOURCE_FEMALE_ONLY
+>		* DIPLO_SOURCE_ALL_NAMES
+>		  DIPLO_SOURCE_FEMALE_ONLY
 
 ## Samples
 

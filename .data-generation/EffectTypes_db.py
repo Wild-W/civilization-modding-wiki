@@ -113,7 +113,7 @@ for row in effectTypes:
 			object_file.write('> [!warning] Warning \n>\n')
 			object_file.write('> This EffectType exists in the database but is never used! Proceed with caution!\n')
 		# -----------------------------
-		#  Title and Intro
+		#  Arguments
 		# -----------------------------
 		object_file.write('\n## Info\n')
 		object_file.write('> [!info] '+effectType+'\n>\n')

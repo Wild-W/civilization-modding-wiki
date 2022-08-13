@@ -12,7 +12,11 @@ This is an [Effect Type](civ-6/database/articles/effect-types.md). Please refer 
 > * Parameters:
 >	* Amount `Integer`
 >	* BeliefYieldType `String`
->		* BELIEF_YIELD_PER_CITY>		  BELIEF_YIELD_PER_DISTRICT>		  BELIEF_YIELD_PER_FOLLOWER>		  BELIEF_YIELD_PER_FOREIGN_CITY>		  BELIEF_YIELD_PER_FOREIGN_FOLLOWER
+>		* BELIEF_YIELD_PER_CITY
+>		  BELIEF_YIELD_PER_DISTRICT
+>		  BELIEF_YIELD_PER_FOLLOWER
+>		  BELIEF_YIELD_PER_FOREIGN_CITY
+>		  BELIEF_YIELD_PER_FOREIGN_FOLLOWER
 >	* PerXItems `Integer`
 >	* YieldType `String`
 >		* [Yields.YieldType]

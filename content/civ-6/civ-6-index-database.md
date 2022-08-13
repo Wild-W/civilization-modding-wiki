@@ -11,4 +11,4 @@ title: "Civ 6 Modding Index - Database"
 ## Articles
 * [About the Modifier System](civ-6/database/articles/modifier-system.md)
 * [Effect Types](civ-6/database/articles/effect-types.md)
-* [Requirement Types](civ-6/database/articles/requirement-types-list.md)
+* [Requirement Types](civ-6/database/articles/requirement-types.md)
