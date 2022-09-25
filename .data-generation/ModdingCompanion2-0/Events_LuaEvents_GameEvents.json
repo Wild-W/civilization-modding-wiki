@@ -79,11 +79,11 @@
     "BuildingAddedToMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -110,11 +110,11 @@
     "BuildingChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -141,11 +141,11 @@
     "BuildingRemovedFromMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -195,11 +195,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -270,11 +270,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -314,11 +314,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -458,11 +458,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -602,11 +602,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -852,11 +852,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -887,11 +887,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -975,11 +975,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1119,7 +1119,16 @@
       ]
     },
     "EventSoundRequest": {
-      "Params": []
+      "Params": [
+        {
+          "Name": "sound",
+          "DataType": "string"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
     },
     "FaithChanged": {
       "Params": [
@@ -1140,11 +1149,11 @@
     "FeatureAddedToMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -1155,11 +1164,11 @@
     "FeatureRemovedFromMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -1403,11 +1412,11 @@
     "ImprovementActivated": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1435,11 +1444,11 @@
     "ImprovementAddedToMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1455,11 +1464,11 @@
     "ImprovementChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1490,11 +1499,11 @@
     "ImprovementRemovedFromMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1506,11 +1515,11 @@
     "ImprovementVisibilityChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1582,11 +1591,11 @@
     "NaturalWonderRevealed": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1831,11 +1840,11 @@
     "PlotMarkerChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -1843,11 +1852,11 @@
     "PlotPropertyChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -1855,11 +1864,11 @@
     "PlotVisibilityChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -1871,11 +1880,11 @@
     "PlotYieldChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -1979,11 +1988,11 @@
     "ResourceAddedToMap": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -2014,11 +2023,11 @@
     "ResourceVisibilityChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -2043,11 +2052,11 @@
     "RouteChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -2184,11 +2193,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -2211,11 +2220,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -2552,11 +2561,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -2572,11 +2581,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -2783,11 +2792,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -2843,11 +2852,11 @@
     "WMDDetonated": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -2869,11 +2878,11 @@
     "WonderCompleted": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -2909,11 +2918,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -3786,11 +3795,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -3906,11 +3915,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
@@ -3997,11 +4006,11 @@
           "DataType": "number"
         },
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         },
         {
@@ -4044,11 +4053,11 @@
     "PlotPropertyChanged": {
       "Params": [
         {
-          "Name": "X",
+          "Name": "x",
           "DataType": "number"
         },
         {
-          "Name": "Y",
+          "Name": "y",
           "DataType": "number"
         }
       ]
