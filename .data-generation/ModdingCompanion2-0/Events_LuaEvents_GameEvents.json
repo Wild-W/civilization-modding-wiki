@@ -1,0 +1,5712 @@
+{
+  "Events": {
+    "AllianceAvailable": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "otherplayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "allianceIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "AllianceEnded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "otherplayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "allianceIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "AnarchyBegins": {
+      "Params": []
+    },
+    "AnarchyEnds": {
+      "Params": []
+    },
+    "BarbarianRaidStarted": {
+      "Params": []
+    },
+    "BarbarianSpottedCity": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityOwner",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "BeginWonderReveal": {
+      "Params": []
+    },
+    "BeliefAdded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "beliefID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "BuildingAddedToMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingID",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "misc2",
+          "DataType": "any"
+        },
+        {
+          "Name": "misc3",
+          "DataType": "any"
+        }
+      ]
+    },
+    "BuildingBuildProgressChanged": {
+      "Params": []
+    },
+    "BuildingChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingID",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "percentComplete",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknown",
+          "DataType": "number"
+        }
+      ]
+    },
+    "BuildingPillaged": {
+      "Params": []
+    },
+    "BuildingRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "BuildingVisibilityChanged": {
+      "Params": []
+    },
+    "CacheUpdate": {
+      "Params": []
+    },
+    "CameraUpdated": {
+      "Params": [
+        {
+          "Name": "vFocusX",
+          "DataType": "number"
+        },
+        {
+          "Name": "vFocusY",
+          "DataType": "number"
+        },
+        {
+          "Name": "fZoomLevel",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CapitalCityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityAddedToMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityChanged": {
+      "Params": []
+    },
+    "CityCommandStarted": {
+      "Params": [
+        {
+          "Name": "cityOwnerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtOwnerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "commandType",
+          "DataType": "CityCommandTypes"
+        },
+        {
+          "Name": "data1",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityDefenseStatusChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "value",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityFocusChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityInitialized": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityLiberated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityLoyaltyChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityMadePurchase": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "eventSubType",
+          "DataType": "EventSubTypes"
+        },
+        {
+          "Name": "purchasableItemIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityNameChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityOccupationChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityPopulationChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityPopulation",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityProductionChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "productionID",
+          "DataType": "number"
+        },
+        {
+          "Name": "objectID",
+          "DataType": "number"
+        },
+        {
+          "Name": "wasCancelled",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "CityProductionCompleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "constructionType",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "wasCancelled",
+          "DataType": "any"
+        }
+      ]
+    },
+    "CityProductionUpdated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "objectID",
+          "DataType": "number"
+        },
+        {
+          "Name": "productionID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityProjectCompleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "projectID",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "isCancelled",
+          "DataType": "any"
+        }
+      ]
+    },
+    "CityReligionChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "eVisibility",
+          "DataType": "number"
+        },
+        {
+          "Name": "otherCityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityReligionFollowersChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "eVisibility",
+          "DataType": "number"
+        },
+        {
+          "Name": "influencingCItyID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CitySiegeStatusChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "isBesieged",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "CityTileOwnershipChanged": {
+      "Params": [
+        {
+          "Name": "ownerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityTransfered": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityUnitsChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityVisibilityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "eVisibility",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityWorkerChanged": {
+      "Params": [
+        {
+          "Name": "ownerPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CivicBoostTriggered": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "civicIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknownA",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknownB",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CivicChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "civicIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CivicCompleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "civicIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "isCancelled",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CivicQueueChanged": {
+      "Params": []
+    },
+    "CivicsUnlocked": {
+      "Params": []
+    },
+    "CliffAddedToMap": {
+      "Params": []
+    },
+    "CliffRemovedFromMap": {
+      "Params": []
+    },
+    "Combat": {
+      "Params": [
+        {
+          "Name": "combatResult",
+          "DataType": "table"
+        }
+      ]
+    },
+    "CulturalIdentityCitizenConverted": {
+      "Params": []
+    },
+    "CulturalIdentityCityConverted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "influencingPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CulturalIdentityConversionOutcomeChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "conversionOutcome",
+          "DataType": "IdentityConversionOutcome"
+        }
+      ]
+    },
+    "CultureChanged": {
+      "Params": []
+    },
+    "CultureYieldChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacyDealEnacted": {
+      "Params": []
+    },
+    "DiplomacyDealExpired": {
+      "Params": []
+    },
+    "DiplomacyDeclareWar": {
+      "Params": [
+        {
+          "Name": "firstPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "secondPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacyIncomingDeal": {
+      "Params": [
+        {
+          "Name": "fromPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "toPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "actionType",
+          "DataType": "DiplomacyActionTypes"
+        }
+      ]
+    },
+    "DiplomacyMakePeace": {
+      "Params": [
+        {
+          "Name": "firstPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "secondPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacyMeet": {
+      "Params": [
+        {
+          "Name": "player1ID",
+          "DataType": "number"
+        },
+        {
+          "Name": "player2ID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacyMeetMajorMinor": {
+      "Params": []
+    },
+    "DiplomacyMeetMajors": {
+      "Params": []
+    },
+    "DiplomacyRefusePeace": {
+      "Params": [
+        {
+          "Name": "actingPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "reactingPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacyRelationshipChanged": {
+      "Params": [
+        {
+          "Name": "player1ID",
+          "DataType": "number"
+        },
+        {
+          "Name": "player2ID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacySessionClosed": {
+      "Params": [
+        {
+          "Name": "sessionID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiplomacyStatement": {
+      "Params": [
+        {
+          "Name": "actingPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "reactingPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "values",
+          "DataType": "table"
+        }
+      ]
+    },
+    "DistrictAddedToMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "percentComplete",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DistrictBuildingRestore": {
+      "Params": []
+    },
+    "DistrictBuildProgressChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "era",
+          "DataType": "number"
+        },
+        {
+          "Name": "civilizationIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "percentComplete",
+          "DataType": "number"
+        },
+        {
+          "Name": "appeal",
+          "DataType": "number"
+        },
+        {
+          "Name": "isPillaged",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "DistrictCombatChanged": {
+      "Params": [
+        {
+          "Name": "eventSubType",
+          "DataType": "EventSubTypes"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DistrictDamageChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "defenseType",
+          "DataType": "DefenseTypes"
+        },
+        {
+          "Name": "newDamage",
+          "DataType": "number"
+        },
+        {
+          "Name": "oldDamage",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DistrictPillaged": {
+      "Params": [
+        {
+          "Name": "ownerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "percentComplete",
+          "DataType": "number"
+        },
+        {
+          "Name": "isPillaged",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "DistrictRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DistrictUnitsChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DistrictVisibilityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "eVisibility",
+          "DataType": "number"
+        }
+      ]
+    },
+    "EmergenciesUpdated": {
+      "Params": []
+    },
+    "EmergencyAvailable": {
+      "Params": [
+        {
+          "Name": "targetPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "emergencyIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "EmergencyAvailableParticipant": {
+      "Params": []
+    },
+    "EmergencyCompleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "targetPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "turn",
+          "DataType": "number"
+        }
+      ]
+    },
+    "EmergencyCompleteParticipants": {
+      "Params": []
+    },
+    "EmergencyRejected": {
+      "Params": []
+    },
+    "EmergencyStarted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "targetPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "turn",
+          "DataType": "number"
+        }
+      ]
+    },
+    "EndTurnBlockingChanged": {
+      "Params": [
+        {
+          "Name": "prevEndTurnBlockingType",
+          "DataType": "EndTurnBlockingTypes"
+        },
+        {
+          "Name": "newEndTurnBlockingType",
+          "DataType": "EndTurnBlockingTypes"
+        }
+      ]
+    },
+    "EndTurnDirty": {
+      "Params": []
+    },
+    "EndWonderReveal": {
+      "Params": []
+    },
+    "EventPopupRequest": {
+      "Params": [
+        {
+          "Name": "popupData",
+          "DataType": "table"
+        }
+      ]
+    },
+    "EventSoundRequest": {
+      "Params": [
+        {
+          "Name": "sound",
+          "DataType": "string"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "FaithChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "yield",
+          "DataType": "number"
+        },
+        {
+          "Name": "balance",
+          "DataType": "number"
+        }
+      ]
+    },
+    "FeatureAddedToMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "FeatureChanged": {
+      "Params": []
+    },
+    "FeatureRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "FeatureVisibilityChanged": {
+      "Params": []
+    },
+    "GameEraChanged": {
+      "Params": [
+        {
+          "Name": "previousEraIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "newEraIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GameHistoryMomentRecorded": {
+      "Params": [
+        {
+          "Name": "momentIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknown",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GoodyHutReward": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknown1",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknown2",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovDistrictPolicyLocked": {
+      "Params": []
+    },
+    "GovDistrictPolicyUnlocked": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "policyIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernmentChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "governmentID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernmentPolicyChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "policyID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernmentPolicyObsoleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernorAppointed": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "governorID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernorAssigned": {
+      "Params": [
+        {
+          "Name": "cityPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "governorPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "governorID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernorChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "governorID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernorEstablished": {
+      "Params": []
+    },
+    "GovernorPointsChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "delta",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GovernorPromoted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "governorIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "promotionIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GreatPeoplePointsChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GreatPeopleTimelineChanged": {
+      "Params": []
+    },
+    "GreatWorkCreated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityPlotX",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityPlotY",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingID",
+          "DataType": "number"
+        },
+        {
+          "Name": "greatWorkID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "GreatWorkMoved": {
+      "Params": [
+        {
+          "Name": "fromCityPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "fromCityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "toCityPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "toCityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingID",
+          "DataType": "number"
+        },
+        {
+          "Name": "greatWorkTypeIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ImprovementActivated": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitOwner",
+          "DataType": "any"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "improvementType",
+          "DataType": "any"
+        },
+        {
+          "Name": "improvementOwner",
+          "DataType": "any"
+        },
+        {
+          "Name": "activationType",
+          "DataType": "any"
+        }
+      ]
+    },
+    "ImprovementAddedToMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "improvementIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ImprovementChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "improvementIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "improvementPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "resourceIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "isPillaged",
+          "DataType": "boolean"
+        },
+        {
+          "Name": "isWorked",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "ImprovementOwnershipChanged": {
+      "Params": []
+    },
+    "ImprovementRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "owningPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ImprovementVisibilityChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "improvementIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "eVisibility",
+          "DataType": "number"
+        }
+      ]
+    },
+    "InfluenceChanged": {
+      "Params": []
+    },
+    "InfluenceGiven": {
+      "Params": [
+        {
+          "Name": "citystateID",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "LevyCounterChanged": {
+      "Params": [
+        {
+          "Name": "originalOwnerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "LocalPlayerChanged": {
+      "Params": [
+        {
+          "Name": "localPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "prevLocalPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "LocalPlayerTurnBegin": {
+      "Params": []
+    },
+    "LocalPlayerTurnEnd": {
+      "Params": []
+    },
+    "LocalPlayerTurnUnready": {
+      "Params": []
+    },
+    "MapYieldsChanged": {
+      "Params": []
+    },
+    "NationalParkAdded": {
+      "Params": []
+    },
+    "NationalParkRemoved": {
+      "Params": []
+    },
+    "NationalParkVisibilityChanged": {
+      "Params": []
+    },
+    "NaturalWonderRevealed": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "featureIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "wasFirstToFind",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "NotificationActivated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "notificationID",
+          "DataType": "number"
+        },
+        {
+          "Name": "wasActivatedByUser",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "NotificationAdded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "notificationID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "NotificationDismissed": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "notificationID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "NotificationRefreshRequested": {
+      "Params": []
+    },
+    "ObjectPairing": {
+      "Params": [
+        {
+          "Name": "eventSubType",
+          "DataType": "EventSubTypes"
+        },
+        {
+          "Name": "parentOwner",
+          "DataType": "any"
+        },
+        {
+          "Name": "parentType",
+          "DataType": "any"
+        },
+        {
+          "Name": "parentID",
+          "DataType": "number"
+        },
+        {
+          "Name": "childOwner",
+          "DataType": "any"
+        },
+        {
+          "Name": "childType",
+          "DataType": "any"
+        },
+        {
+          "Name": "childID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnAiAdvisorUpdated": {
+      "Params": []
+    },
+    "UnitGreatPersonActivated": {
+      "Params": [
+        {
+          "Name": "unitOwner",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "greatPersonClassID",
+          "DataType": "number"
+        },
+        {
+          "Name": "greatPersonIndividualID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PantheonFounded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "any"
+        }
+      ]
+    },
+    "PhaseBegin": {
+      "Params": []
+    },
+    "PhaseEnd": {
+      "Params": []
+    },
+    "PlayerAgeChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerBordersChanged": {
+      "Params": []
+    },
+    "PlayerDarkAgeChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerDefeat": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "defeatIndex",
+          "DataType": "any"
+        },
+        {
+          "Name": "eventID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerDestroyed": {
+      "Params": []
+    },
+    "PlayerEraChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "eraIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerEraScoreChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "amountAwarded",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerEraTransitionBegins": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerOperationComplete": {
+      "Params": []
+    },
+    "PlayerResourceChanged": {
+      "Params": [
+        {
+          "Name": "ownerPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "resourceTypeID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerRestored": {
+      "Params": []
+    },
+    "PlayerRevived": {
+      "Params": []
+    },
+    "PlayerTurnActivated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "isFirstTurn",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "PlayerTurnDeactivated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerVictory": {
+      "Params": []
+    },
+    "PlotAppealChanged": {
+      "Params": []
+    },
+    "PlotMarkerChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlotPropertyChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlotVisibilityChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "visibilityType",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlotYieldChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PolicyChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "policyID",
+          "DataType": "number"
+        },
+        {
+          "Name": "wasEnacted",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "QuestChanged": {
+      "Params": [
+        {
+          "Name": "CityStateID",
+          "DataType": "number"
+        },
+        {
+          "Name": "CompletedQuestPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "QueueFlushed": {
+      "Params": []
+    },
+    "ReligionFounded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "religionID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "RemotePlayerTurnBegin": {
+      "Params": []
+    },
+    "RemotePlayerTurnEnd": {
+      "Params": []
+    },
+    "RemotePlayerTurnUnready": {
+      "Params": []
+    },
+    "ResearchChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "technologyIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ResearchCompleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "technologyIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ResearchQueueChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "technologyIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ResearchYieldChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ResourceAddedToMap": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "resourceIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ResourceChanged": {
+      "Params": []
+    },
+    "ResourceRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "iX",
+          "DataType": "number"
+        },
+        {
+          "Name": "iY",
+          "DataType": "number"
+        },
+        {
+          "Name": "resourceIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ResourceVisibilityChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "resourceIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "visibilityType",
+          "DataType": "number"
+        }
+      ]
+    },
+    "RiverAddedToMap": {
+      "Params": []
+    },
+    "RiverRemovedFromMap": {
+      "Params": []
+    },
+    "RouteAddedToMap": {
+      "Params": []
+    },
+    "RouteChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "RouteRemovedFromMap": {
+      "Params": []
+    },
+    "RouteVisibilityChanged": {
+      "Params": []
+    },
+    "SpyAdded": {
+      "Params": [
+        {
+          "Name": "spyPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "spyUnitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "SpyMissionCompleted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "missionID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "SpyMissionUpdated": {
+      "Params": []
+    },
+    "SpyRemoved": {
+      "Params": [
+        {
+          "Name": "spyPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "counterSpyPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "SpyUpdated": {
+      "Params": []
+    },
+    "StatusMessage": {
+      "Params": []
+    },
+    "SystemUpdateUI": {
+      "Params": [
+        {
+          "Name": "type",
+          "DataType": "any"
+        },
+        {
+          "Name": "tag",
+          "DataType": "any"
+        },
+        {
+          "Name": "data1",
+          "DataType": "number"
+        },
+        {
+          "Name": "data2",
+          "DataType": "number"
+        },
+        {
+          "Name": "data3",
+          "DataType": "string"
+        }
+      ]
+    },
+    "TeamVictory": {
+      "Params": []
+    },
+    "TechBoostTriggered": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "techBoosted",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknownA",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknownB",
+          "DataType": "number"
+        }
+      ]
+    },
+    "TerrainTypeChanged": {
+      "Params": []
+    },
+    "TradeRouteActivityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "originPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "originCityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "targetPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "targetCityID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "TradeRouteAddedToMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "TradeRouteCapacityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "TradeRouteRangeChanged": {
+      "Params": []
+    },
+    "TradeRouteRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "TreasuryChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "yield",
+          "DataType": "number"
+        },
+        {
+          "Name": "balance",
+          "DataType": "any"
+        }
+      ]
+    },
+    "TurnBegin": {
+      "Params": []
+    },
+    "TurnEnd": {
+      "Params": []
+    },
+    "UnitAbilityGained": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitAbilityIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitAbilityLost": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitAbilityIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitActivate": {
+      "Params": []
+    },
+    "UnitActivityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "activityType",
+          "DataType": "ActivityTypes"
+        }
+      ]
+    },
+    "UnitAddedToMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitAirlifted": {
+      "Params": []
+    },
+    "UnitArtifactChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitCaptured": {
+      "Params": [
+        {
+          "Name": "currentUnitPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "owningPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "capturingPlayerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitChargesChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "newCharges",
+          "DataType": "number"
+        },
+        {
+          "Name": "oldCharges",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitCommandStarted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "commandType",
+          "DataType": "UnitCommandTypes"
+        },
+        {
+          "Name": "data1",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitDamageChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "newDamage",
+          "DataType": "number"
+        },
+        {
+          "Name": "prevDamage",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitEmbarkedStateChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "isEmbarked",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "UnitEnterFormation": {
+      "Params": [
+        {
+          "Name": "firstUnitPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "firstUnitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "secondUnitPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "secondUnitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitExitFormation": {
+      "Params": [
+        {
+          "Name": "firstUnitPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "firstUnitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "secondUnitPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "secondUnitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitExperienceChanged": {
+      "Params": []
+    },
+    "UnitFormArmy": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitFormationChanged": {
+      "Params": []
+    },
+    "UnitFormCorps": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitFortificationChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitGreatPersonChanged": {
+      "Params": []
+    },
+    "UnitGreatPersonCreated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "greatPersonClassID",
+          "DataType": "number"
+        },
+        {
+          "Name": "greatPersonIndividualID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitKilledInCombat": {
+      "Params": [
+        {
+          "Name": "killedPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "killedUnitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitMoveComplete": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitMoved": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "locallyVisible",
+          "DataType": "any"
+        },
+        {
+          "Name": "stateChange",
+          "DataType": "any"
+        }
+      ]
+    },
+    "UnitMovementPointsChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "movementPoints",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitMovementPointsCleared": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitMovementPointsRestored": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "MovementPoints",
+          "DataType": "any"
+        }
+      ]
+    },
+    "UnitOperationAdded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknown",
+          "DataType": "number"
+        },
+        {
+          "Name": "operationType",
+          "DataType": "UnitOperationTypes"
+        }
+      ]
+    },
+    "UnitOperationDeactivated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "operationType",
+          "DataType": "UnitOperationTypes"
+        },
+        {
+          "Name": "data1",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitOperationSegmentComplete": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "commandType",
+          "DataType": "UnitCommandTypes"
+        },
+        {
+          "Name": "data1",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitOperationStarted": {
+      "Params": [
+        {
+          "Name": "ownerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "operationID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitOperationsCleared": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "commandType",
+          "DataType": "UnitCommandTypes"
+        },
+        {
+          "Name": "data1",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitParadropped": {
+      "Params": []
+    },
+    "UnitPromoted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitPromotionAvailable": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "promotionID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitRemovedFromMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitTeleported": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitTradeChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitUpgraded": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "UnitVisibilityChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "WMDCountChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "WMDIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "WMDDetonated": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "WMDIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "WMDFalloutChanged": {
+      "Params": []
+    },
+    "WMDFalloutVisibilityChanged": {
+      "Params": []
+    },
+    "WonderCompleted": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "playerIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "percentComplete",
+          "DataType": "number"
+        },
+        {
+          "Name": "unknown",
+          "DataType": "number"
+        }
+      ]
+    },
+    "WorldTextMessage": {
+      "Params": [
+        {
+          "Name": "reportingStatusType",
+          "DataType": "ReportingStatusTypes"
+        },
+        {
+          "Name": "gossipIndex",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "text",
+          "DataType": "string"
+        }
+      ]
+    },
+    "UnitCreated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "InterfaceModeChanged": {
+      "Params": [
+        {
+          "Name": "prevInterfaceModeType",
+          "DataType": "InterfaceModeTypes"
+        },
+        {
+          "Name": "newInterfaceModeType",
+          "DataType": "InterfaceModeTypes"
+        }
+      ]
+    },
+    "UnitSelectionChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "hexI",
+          "DataType": "number"
+        },
+        {
+          "Name": "hexJ",
+          "DataType": "number"
+        },
+        {
+          "Name": "hexK",
+          "DataType": "number"
+        },
+        {
+          "Name": "isSelected",
+          "DataType": "boolean"
+        },
+        {
+          "Name": "IsEditable",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "InputActionTriggered": {
+      "Params": [
+        {
+          "Name": "actionID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CitySelectionChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "hexI",
+          "DataType": "number"
+        },
+        {
+          "Name": "hexJ",
+          "DataType": "number"
+        },
+        {
+          "Name": "hexK",
+          "DataType": "number"
+        },
+        {
+          "Name": "isSelected",
+          "DataType": "boolean"
+        },
+        {
+          "Name": "IsEditable",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "EventPopupResponse": {
+      "Params": []
+    },
+    "CombatVisBegin": {
+      "Params": []
+    },
+    "CrossPlayServersConnected": {
+      "Params": []
+    },
+    "GameConfigChanged": {
+      "Params": []
+    },
+    "UploadCloudPlayerConfigComplete": {
+      "Params": []
+    },
+    "MultiplayerGameLaunchFailed": {
+      "Params": []
+    },
+    "WorldBuilderSignal": {
+      "Params": []
+    },
+    "LoadComplete": {
+      "Params": []
+    },
+    "PlayCameraAnimationAtHex": {
+      "Params": []
+    },
+    "My2KActivate": {
+      "Params": []
+    },
+    "UserConfirmedClose": {
+      "Params": []
+    },
+    "MultiplayerPlayerConnected": {
+      "Params": []
+    },
+    "CityProductionQueueChanged": {
+      "Params": []
+    },
+    "SteamFriendsStatusUpdated": {
+      "Params": []
+    },
+    "GameCoreEventPublishComplete": {
+      "Params": []
+    },
+    "UserRequestClose": {
+      "Params": []
+    },
+    "MultiplayerChat": {
+      "Params": []
+    },
+    "BenchmarkStart": {
+      "Params": []
+    },
+    "MultiplayerGameAbandoned": {
+      "Params": []
+    },
+    "OptionChangeRequiresAppRestart": {
+      "Params": []
+    },
+    "SteamServersDisconnected": {
+      "Params": []
+    },
+    "PlayCameraAnimationAtPos": {
+      "Params": []
+    },
+    "OptionChangeRequiresResolutionAck": {
+      "Params": []
+    },
+    "UserSetupWarning": {
+      "Params": []
+    },
+    "BarbarianClanConversionDisabled": {
+      "Params": []
+    },
+    "LoadScreenContentReady": {
+      "Params": []
+    },
+    "InputActionStarted": {
+      "Params": []
+    },
+    "InputActionFinished": {
+      "Params": []
+    },
+    "WorldCongressFinished": {
+      "Params": []
+    },
+    "GamePauseStateChanged": {
+      "Params": []
+    },
+    "UnitPlayCinematicAnimation": {
+      "Params": []
+    },
+    "DisableColorKey": {
+      "Params": []
+    },
+    "GeothermalFissureRevealed": {
+      "Params": []
+    },
+    "MultiplayerMatchHostMigrated": {
+      "Params": []
+    },
+    "UnitPropertyChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CrossPlayServersDisconnected": {
+      "Params": []
+    },
+    "WorldCongressStage2": {
+      "Params": []
+    },
+    "PopupActivated": {
+      "Params": []
+    },
+    "BenchmarkEnd": {
+      "Params": []
+    },
+    "WorldCongressSpecialSessionBeingCalled": {
+      "Params": []
+    },
+    "LensChanged": {
+      "Params": []
+    },
+    "UserAcceptsOutdatedDriver": {
+      "Params": []
+    },
+    "OptionChangeRequiresGameRestart": {
+      "Params": []
+    },
+    "UserAcceptsEULA": {
+      "Params": []
+    },
+    "RandomEventStarted": {
+      "Params": []
+    },
+    "UserOptionChanged": {
+      "Params": []
+    },
+    "ConnectedToNetSessionHost": {
+      "Params": []
+    },
+    "UserAcceptsUnknownDevice": {
+      "Params": []
+    },
+    "CorporationAdded": {
+      "Params": []
+    },
+    "MultiplayerGameListClear": {
+      "Params": []
+    },
+    "GamePropertyChanged": {
+      "Params": []
+    },
+    "MultiplayerHostMigrated": {
+      "Params": []
+    },
+    "VolcanoRevealed": {
+      "Params": []
+    },
+    "CloudGameQuit": {
+      "Params": []
+    },
+    "CloudUnseenCompleteCheckComplete": {
+      "Params": []
+    },
+    "TurnTimerUpdated": {
+      "Params": []
+    },
+    "CityProjectCompletedNarrative": {
+      "Params": []
+    },
+    "WorldCongressRibbonUpdate": {
+      "Params": []
+    },
+    "RestartWonderMovie": {
+      "Params": []
+    },
+    "ExitToMainMenu": {
+      "Params": []
+    },
+    "SteamFriendsPresenceUpdated": {
+      "Params": []
+    },
+    "ShowLeaderScreen": {
+      "Params": []
+    },
+    "MultiplayerJoinRoomComplete": {
+      "Params": []
+    },
+    "MultiplayerPingTimesChanged": {
+      "Params": []
+    },
+    "CulturalIdentityPerturnFromModifiersChanged": {
+      "Params": []
+    },
+    "CameraAnimationNotFound": {
+      "Params": []
+    },
+    "WorldCongressEmergencyReady": {
+      "Params": []
+    },
+    "FiraxisLiveActivate": {
+      "Params": []
+    },
+    "Begin2KLoginProcess": {
+      "Params": []
+    },
+    "ARXTap": {
+      "Params": []
+    },
+    "CloudTurnCheckComplete": {
+      "Params": []
+    },
+    "CrossPlayDisplayMessage": {
+      "Params": []
+    },
+    "LeaderScreenFinishedLoading": {
+      "Params": []
+    },
+    "MultiplayerSnapshotRequested": {
+      "Params": []
+    },
+    "LensLayerOff": {
+      "Params": []
+    },
+    "MultiplayerGameListComplete": {
+      "Params": []
+    },
+    "UploadCloudEndTurnComplete": {
+      "Params": []
+    },
+    "UserOptionsActivated": {
+      "Params": []
+    },
+    "Camera_Updated": {
+      "Params": []
+    },
+    "KickVoteComplete": {
+      "Params": []
+    },
+    "PlayerIntroduced": {
+      "Params": []
+    },
+    "LeaveGameComplete": {
+      "Params": []
+    },
+    "StormChanged": {
+      "Params": []
+    },
+    "PostTourismBomb": {
+      "Params": []
+    },
+    "CrossPlayLoginStateUpdated": {
+      "Params": []
+    },
+    "FavorChanged": {
+      "Params": []
+    },
+    "EOSInviteReceived": {
+      "Params": []
+    },
+    "MultiplayerPrePlayerDisconnected": {
+      "Params": []
+    },
+    "LoadScreenClose": {
+      "Params": []
+    },
+    "WorldRenderViewChanged": {
+      "Params": []
+    },
+    "PlayerInfoChanged": {
+      "Params": []
+    },
+    "MultiplayerGameLaunched": {
+      "Params": []
+    },
+    "PowerGeneratedFromResource": {
+      "Params": []
+    },
+    "OverlaySystemInitialized": {
+      "Params": []
+    },
+    "BarbarianClanConversionEnabled": {
+      "Params": []
+    },
+    "GameCoreEventPlaybackComplete": {
+      "Params": []
+    },
+    "FinishedGameplayContentConfigure": {
+      "Params": []
+    },
+    "VisualStateRestored": {
+      "Params": []
+    },
+    "UIIdle": {
+      "Params": []
+    },
+    "CameraAnimationStopped": {
+      "Params": []
+    },
+    "LensLayerOn": {
+      "Params": []
+    },
+    "UnitKilledByFallout": {
+      "Params": []
+    },
+    "ModStatusUpdated": {
+      "Params": []
+    },
+    "MapMinMajorPlayersChanged": {
+      "Params": []
+    },
+    "BenchmarkToggleLookAt": {
+      "Params": []
+    },
+    "UnitStopCinematicAnimation": {
+      "Params": []
+    },
+    "KickVoteStarted": {
+      "Params": []
+    },
+    "CycleUnitSelectionRequest": {
+      "Params": []
+    },
+    "FloodplainRevealed": {
+      "Params": []
+    },
+    "My2KLinkAccountResult": {
+      "Params": []
+    },
+    "LoadGameViewStateDone": {
+      "Params": []
+    },
+    "MultiplayerGameLastPlayer": {
+      "Params": []
+    },
+    "CloudGameKilled": {
+      "Params": []
+    },
+    "UnitSimPositionChanged": {
+      "Params": []
+    },
+    "GovernorEjected": {
+      "Params": []
+    },
+    "StopAllCameraAnimations": {
+      "Params": []
+    },
+    "ARXOrientationChanged": {
+      "Params": []
+    },
+    "LeaderAnimationComplete": {
+      "Params": []
+    },
+    "PreTurnBegin": {
+      "Params": []
+    },
+    "FrontEndPopup": {
+      "Params": []
+    },
+    "MapMaxMajorPlayersChanged": {
+      "Params": []
+    },
+    "EnableColorKey": {
+      "Params": []
+    },
+    "UploadCloudEndTurnStart": {
+      "Params": []
+    },
+    "MultiplayerGameListUpdated": {
+      "Params": []
+    },
+    "BeforeMultiplayerInviteProcessing": {
+      "Params": []
+    },
+    "RandomEventOccurred": {
+      "Params": []
+    },
+    "SaveComplete": {
+      "Params": []
+    },
+    "MultiplayerJoinGameComplete": {
+      "Params": []
+    },
+    "UpdateGraphicsOptions": {
+      "Params": []
+    },
+    "CityPowerChanged": {
+      "Params": []
+    },
+    "MultiplayerPostPlayerDisconnected": {
+      "Params": []
+    },
+    "HideLeaderScreen": {
+      "Params": []
+    },
+    "MultiplayerMatchmakingFailed": {
+      "Params": []
+    },
+    "MultiplayerJoinRoomFailed": {
+      "Params": []
+    },
+    "MultiplayerSnapshotProcessed": {
+      "Params": []
+    },
+    "MultiplayerJoinRoomAttempt": {
+      "Params": []
+    },
+    "SteamServersConnected": {
+      "Params": []
+    },
+    "CombatVisEnd": {
+      "Params": []
+    },
+    "InputGestureRecorded": {
+      "Params": []
+    },
+    "MarketingPushDataUpdated": {
+      "Params": []
+    },
+    "CorporationNameChanged": {
+      "Params": []
+    },
+    "CityPropertyChanged": {
+      "Params": []
+    },
+    "WorldCongressStage1": {
+      "Params": []
+    },
+    "MatchEndTurnComplete": {
+      "Params": []
+    },
+    "GameViewStateDone": {
+      "Params": []
+    },
+    "CorporationRemoved": {
+      "Params": []
+    },
+    "OptionsReverted": {
+      "Params": []
+    },
+    "LoadCanceled": {
+      "Params": []
+    },
+    "SaveCanceled": {
+      "Params": []
+    },
+    "MonopolyGained": {
+      "Params": []
+    },
+    "AchievementProgress": {
+      "Params": []
+    },
+    "DroughtAddedToMap": {
+      "Params": []
+    },
+    "HostPlayTogetherGame": {
+      "Params": []
+    },
+    "GameConfigurationRebuilt": {
+      "Params": []
+    },
+    "RaiseHostDefaultGame": {
+      "Params": []
+    },
+    "RandomEventOccurredNarrative": {
+      "Params": []
+    },
+    "ContentOutOfDatePopup": {
+      "Params": []
+    },
+    "MultiplayerPurchasePopup": {
+      "Params": []
+    },
+    "MultiplayerGameInvite": {
+      "Params": []
+    },
+    "CursorHexPositionChanged": {
+      "Params": []
+    },
+    "FinishedGameplayContentChange": {
+      "Params": []
+    },
+    "GameConfigurationParameterChanged": {
+      "Params": []
+    },
+    "PurchaseFullGame": {
+      "Params": []
+    },
+    "OptionsSaved": {
+      "Params": []
+    },
+    "DragCamera": {
+      "Params": []
+    },
+    "PlayerTurnCompleteIgnored": {
+      "Params": []
+    },
+    "RequestLoad": {
+      "Params": []
+    },
+    "ShowEndDemoPurchaseDialog": {
+      "Params": []
+    },
+    "StopCameraAnimationByID": {
+      "Params": []
+    },
+    "DemoTurnLimitReached": {
+      "Params": []
+    },
+    "SecretSocietyDiscovered": {
+      "Params": []
+    },
+    "AfterPlayerTurnActivated": {
+      "Params": []
+    },
+    "InputDeviceLayoutChanged": {
+      "Params": []
+    },
+    "UnitTourismBomb": {
+      "Params": []
+    },
+    "BeforeGameplayContentConfigure": {
+      "Params": []
+    },
+    "MatchUpdateSaveGameComplete": {
+      "Params": []
+    },
+    "MainMenuStateDone": {
+      "Params": []
+    },
+    "WorldCongressPlayersChoice": {
+      "Params": []
+    },
+    "TakeUserToDLCScreen": {
+      "Params": []
+    },
+    "OptionsReset": {
+      "Params": []
+    },
+    "AllDistrictsDeselected": {
+      "Params": []
+    },
+    "GamepadActiveChanged": {
+      "Params": []
+    },
+    "BeforeGameplayContentChange": {
+      "Params": []
+    },
+    "UnitHeroCreated": {
+      "Params": []
+    },
+    "AuthenticateDLC": {
+      "Params": []
+    },
+    "RequestSave": {
+      "Params": []
+    },
+    "DLCDownloaded": {
+      "Params": []
+    },
+    "AllCitiesDeselected": {
+      "Params": []
+    },
+    "NuclearReactorChanged": {
+      "Params": []
+    },
+    "CameraAnimationStarted": {
+      "Params": []
+    },
+    "StormAddedToMap": {
+      "Params": []
+    },
+    "CloudGameInfoUpdated": {
+      "Params": []
+    },
+    "OptionChanged": {
+      "Params": []
+    },
+    "PlayerDiscoveredHero": {
+      "Params": []
+    },
+    "UploadCloudSaveComplete": {
+      "Params": []
+    },
+    "LeaderAnimationChanged": {
+      "Params": []
+    },
+    "AchievementUnlocked": {
+      "Params": []
+    },
+    "LensFocusCity": {
+      "Params": []
+    },
+    "DLCFullGameRequiredPopup": {
+      "Params": []
+    },
+    "InputSourceChanged": {
+      "Params": []
+    },
+    "PublisherServicesLoginStateChange": {
+      "Params": []
+    },
+    "UnitAttacksRemainingChanged": {
+      "Params": []
+    },
+    "ContextVisibilityChanged": {
+      "Params": []
+    },
+    "UnitKilledLifespanExpired": {
+      "Params": []
+    },
+    "StormRemovedFromMap": {
+      "Params": []
+    },
+    "DroughtRemovedFromMap": {
+      "Params": []
+    },
+    "MonopolyLost": {
+      "Params": []
+    },
+    "GameCoreProcessingComplete": {
+      "Params": []
+    },
+    "DemoExit": {
+      "Params": []
+    },
+    "AppInitComplete": {
+      "Params": []
+    },
+    "LensUnFocusCity": {
+      "Params": []
+    },
+    "GameConfigurationResolved": {
+      "Params": []
+    },
+    "NaturalWonderRevealedNarrative": {
+      "Params": []
+    },
+    "CloudGameJoinResponse": {
+      "Params": []
+    },
+    "SecretSocietyLeft": {
+      "Params": []
+    },
+    "CloudGameListUpdated": {
+      "Params": []
+    },
+    "PostTourismBombNarrative": {
+      "Params": []
+    },
+    "UnitEnteredBarbarianCamp": {
+      "Params": []
+    },
+    "SecretSocietyJoined": {
+      "Params": []
+    },
+    "AllUnitsDeselected": {
+      "Params": []
+    },
+    "DistrictSelectionChanged": {
+      "Params": []
+    },
+    "AfterGameplayContentChange": {
+      "Params": []
+    },
+    "LensFocusHex": {
+      "Params": []
+    },
+    "BeginGameView": {
+      "Params": []
+    },
+    "SubscriptionDownloadStatus": {
+      "Params": []
+    },
+    "AfterGameplayContentConfigure": {
+      "Params": []
+    },
+    "WorldCongressStage3": {
+      "Params": []
+    },
+    "ClimateChangeEvent": {
+      "Params": []
+    },
+    "EndGameView": {
+      "Params": []
+    },
+    "WonderCompletedNarrative": {
+      "Params": []
+    },
+    "LensUnFocusHex": {
+      "Params": []
+    },
+    "GenericObjectSimActionTrigger": {
+      "Params": []
+    },
+    "LoadingBarUpdate": {
+      "Params": []
+    },
+    "BeginMy2KLinkAccountProcess": {
+      "Params": []
+    }
+  },
+  "GameEvents": {
+    "BuildingConstructed": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingID",
+          "DataType": "number"
+        },
+        {
+          "Name": "plotID",
+          "DataType": "number"
+        },
+        {
+          "Name": "isOriginalConstruction",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "BuildingPillageStateChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "buildingID",
+          "DataType": "number"
+        },
+        {
+          "Name": "isPillaged",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "CityBuilt": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "CityConquered": {
+      "Params": [
+        {
+          "Name": "newPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "oldPlayerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "newCityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityX",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityY",
+          "DataType": "number"
+        }
+      ]
+    },
+    "DiploSurpriseDeclareWar": {
+      "Params": [
+        {
+          "Name": "mainPlayer",
+          "DataType": "any"
+        },
+        {
+          "Name": "opponentPlayer",
+          "DataType": "any"
+        }
+      ]
+    },
+    "EventPopupChoice": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "parameters",
+          "DataType": "table"
+        }
+      ]
+    },
+    "FoundNewWorld": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "threshold",
+          "DataType": "number"
+        }
+      ]
+    },
+    "HasFourCities": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "threshold",
+          "DataType": "any"
+        }
+      ]
+    },
+    "OnCityPopulationChanged": {
+      "Params": [
+        {
+          "Name": "cityOwner",
+          "DataType": "number"
+        },
+        {
+          "Name": "cityID",
+          "DataType": "number"
+        },
+        {
+          "Name": "amountChanged",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnCivicCulturevated": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "civicIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnDistrictConstructed": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "districtID",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnFaithEarned": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "amountEarned",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnGameTurnStarted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnNewMajorityReligion": {
+      "Params": []
+    },
+    "OnPillage": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        },
+        {
+          "Name": "isPillaged",
+          "DataType": "boolean"
+        },
+        {
+          "Name": "buildingIndex",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnPlayerCommandSetObjectState": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "parameters",
+          "DataType": "table"
+        }
+      ]
+    },
+    "OnPlayerGaveInfluenceToken": {
+      "Params": [
+        {
+          "Name": "majorID",
+          "DataType": "number"
+        },
+        {
+          "Name": "minorID",
+          "DataType": "number"
+        },
+        {
+          "Name": "amount",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnRandomEventOccurred": {
+      "Params": [
+        {
+          "Name": "iType",
+          "DataType": "number"
+        },
+        {
+          "Name": "severity",
+          "DataType": "number"
+        },
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        },
+        {
+          "Name": "mitigationLevel",
+          "DataType": "number"
+        }
+      ]
+    },
+    "OnUnitRetreated": {
+      "Params": [
+        {
+          "Name": "unitOwner",
+          "DataType": "any"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerTurnStartComplete": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlayerTurnStarted": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PlotOwnershipChanged": {
+      "Params": []
+    },
+    "PlotPropertyChanged": {
+      "Params": [
+        {
+          "Name": "x",
+          "DataType": "number"
+        },
+        {
+          "Name": "y",
+          "DataType": "number"
+        }
+      ]
+    },
+    "PolicyChanged": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "policyID",
+          "DataType": "number"
+        },
+        {
+          "Name": "wasEnacted",
+          "DataType": "boolean"
+        }
+      ]
+    },
+    "UnitAddedToMap": {
+      "Params": [
+        {
+          "Name": "playerID",
+          "DataType": "number"
+        },
+        {
+          "Name": "unitID",
+          "DataType": "number"
+        }
+      ]
+    },
+    "ScenarioCommand_UnitCloak": {
+      "Params": []
+    },
+    "WC_Validate_ArmsControlTreaty": {
+      "Params": []
+    },
+    "ScenarioCommand_ShoreParty": {
+      "Params": []
+    },
+    "ScenarioCommand_HoarderActive": {
+      "Params": []
+    },
+    "WC_Validate_BorderControl": {
+      "Params": []
+    },
+    "UnitInitialized": {
+      "Params": []
+    },
+    "WC_Validate_WorldIdeology": {
+      "Params": []
+    },
+    "WC_ValidateGovernanceDoctrine": {
+      "Params": []
+    },
+    "ScenarioCommand_PlaceTrap": {
+      "Params": []
+    },
+    "WC_Validate_PowerResourceBan": {
+      "Params": []
+    },
+    "WC_Validate_DeforestationFeature": {
+      "Params": []
+    },
+    "OnUnitMoved": {
+      "Params": []
+    },
+    "CivRoyale_GetSafeZone": {
+      "Params": []
+    },
+    "OnWMDCountChanged": {
+      "Params": []
+    },
+    "ScenarioCommand_BurnTreasureMap": {
+      "Params": []
+    },
+    "WC_Validate_LuxuryBan": {
+      "Params": []
+    },
+    "ScenarioCommand_HolyFervor": {
+      "Params": []
+    },
+    "ScenarioCommand_Purge": {
+      "Params": []
+    },
+    "ScenarioCommand_UnitShield": {
+      "Params": []
+    },
+    "ScenarioCommand_RoadVision": {
+      "Params": []
+    },
+    "ScenarioCommand_Careening": {
+      "Params": []
+    },
+    "WC_Validate_TradeTreaty": {
+      "Params": []
+    },
+    "WC_Validate_YieldBan": {
+      "Params": []
+    },
+    "ScenarioCommand_Minister": {
+      "Params": []
+    },
+    "WC_Validate_ESPIONAGE_PACT": {
+      "Params": []
+    },
+    "OnImprovementPillaged": {
+      "Params": []
+    },
+    "PostUnitPromotionEarned": {
+      "Params": []
+    },
+    "WC_Validate_PublicWorks": {
+      "Params": []
+    },
+    "WC_Validate_DiploVictory": {
+      "Params": []
+    },
+    "OnPlayerTurnEnded": {
+      "Params": []
+    },
+    "WC_Validate_GreatWorkObjects": {
+      "Params": []
+    },
+    "ScenarioCommand_Study": {
+      "Params": []
+    },
+    "PiratesScenario_DeleteUnitsAtGoal": {
+      "Params": []
+    },
+    "ScenarioCommand_UnitRadSpread": {
+      "Params": []
+    },
+    "OnNuclearWeaponDetonated": {
+      "Params": []
+    },
+    "OnGreatPersonActivated": {
+      "Params": []
+    },
+    "ScenarioCommand_UnitSacrifice": {
+      "Params": []
+    },
+    "CanUseResolutions": {
+      "Params": []
+    },
+    "CivRoyale_SmallSafeZone": {
+      "Params": []
+    },
+    "WC_Validate_MILITARY_ADVISORY": {
+      "Params": []
+    },
+    "TradeRoutePlundered": {
+      "Params": []
+    },
+    "ScenarioCommand_BuryTreasure": {
+      "Params": []
+    },
+    "OnCombatOccurred": {
+      "Params": []
+    },
+    "ScenarioCommand_VisitTavern": {
+      "Params": []
+    },
+    "WC_Validate_MigrationTreaty": {
+      "Params": []
+    },
+    "ScenarioCommand_CaptureBoat": {
+      "Params": []
+    },
+    "WC_Validate_PolicyTreaty": {
+      "Params": []
+    },
+    "WC_Validate_Patronage": {
+      "Params": []
+    },
+    "ScenarioCommand_Pacify": {
+      "Params": []
+    },
+    "UnitTriggerGoodyHut": {
+      "Params": []
+    },
+    "ScenarioCommand_PrivateerActive": {
+      "Params": []
+    },
+    "ScenarioCommand_SwashbucklerActive": {
+      "Params": []
+    },
+    "ScenarioCommand_ShorePartyEmbark": {
+      "Params": []
+    },
+    "ScenarioCommand_GrievingGift": {
+      "Params": []
+    },
+    "WC_Validate_UrbanDevelopment": {
+      "Params": []
+    },
+    "ScenarioCommand_DreadPirateActive": {
+      "Params": []
+    },
+    "WC_Validate_PowerBuilding": {
+      "Params": []
+    }
+  },
+  "LuaEvents": {
+    "EventPopupRequest": {
+      "Params": [
+        {
+          "Name": "popupData",
+          "DataType": "table"
+        }
+      ]
+    },
+    "WorldTracker_OpenChooseCivic": {
+      "Params": []
+    },
+    "GameDebug_AddValue": {
+      "Params": []
+    },
+    "Tutorial_DisableMapDrag": {
+      "Params": []
+    },
+    "ChatPanel_PlayerTargetChanged": {
+      "Params": []
+    },
+    "TutorialUIRoot_AdvisorLower": {
+      "Params": []
+    },
+    "AutomationStart": {
+      "Params": []
+    },
+    "GovernorPanel_Opened": {
+      "Params": []
+    },
+    "GreatPeopleHeroPanel_SizeChanged": {
+      "Params": []
+    },
+    "Tutorial_CloseAllLaunchBarScreens": {
+      "Params": []
+    },
+    "CityPanel_ChooseProduction": {
+      "Params": []
+    },
+    "NotificationPanel_OpenReligionPanel": {
+      "Params": []
+    },
+    "AutomationTestComplete": {
+      "Params": []
+    },
+    "NaturalWonderPopup_Closed": {
+      "Params": []
+    },
+    "DiploPopup_ShowMakeDeal": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseReportsList": {
+      "Params": []
+    },
+    "CityPanel_LiveCityDataChanged": {
+      "Params": []
+    },
+    "EnterCrossPlayLobby": {
+      "Params": []
+    },
+    "WorldRankings_Close": {
+      "Params": []
+    },
+    "WorldInput_DragMapEnd": {
+      "Params": []
+    },
+    "CloseAnyQueuedMy2KPopup": {
+      "Params": []
+    },
+    "CityPanel_SetOverViewState": {
+      "Params": []
+    },
+    "ActionPanel_ActivateNotification": {
+      "Params": []
+    },
+    "FileListQueryComplete": {
+      "Params": []
+    },
+    "ResearchChooser_RaiseTechTree": {
+      "Params": []
+    },
+    "MapPinPopup_SendPinToChat": {
+      "Params": []
+    },
+    "WorldCongress_OpenDiplomacyActionViewLite": {
+      "Params": []
+    },
+    "CityBannerManager_TalkToLeader": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenEraProgressPanel": {
+      "Params": []
+    },
+    "TutorialUIRoot_FilterKeysActive": {
+      "Params": []
+    },
+    "NewGameInitialized": {
+      "Params": []
+    },
+    "WorldTracker_SetEmergencies": {
+      "Params": []
+    },
+    "ReportsList_OpenGossip": {
+      "Params": []
+    },
+    "Launchbar_ToggleClimateScreen": {
+      "Params": []
+    },
+    "WorldCongress_ShowEmergency": {
+      "Params": []
+    },
+    "WorldCongressPopup_OnSpecialSessionNotificationAdded": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseCityStates": {
+      "Params": []
+    },
+    "CityPanel_PurchasePlot": {
+      "Params": []
+    },
+    "TutorialUIRoot_DisableActionForAll": {
+      "Params": []
+    },
+    "GovPan_PostOpen": {
+      "Params": []
+    },
+    "NotificationPanel_OpenGreatPeoplePopup": {
+      "Params": []
+    },
+    "CityPanel_ChoosePurchase": {
+      "Params": []
+    },
+    "TechTree_CloseTechTree": {
+      "Params": []
+    },
+    "AutoProfilerBenchmarkFinished": {
+      "Params": []
+    },
+    "PlayerChange_Show": {
+      "Params": []
+    },
+    "AdvisorPopup_ClearActive": {
+      "Params": []
+    },
+    "NotificationPanel_ResumeCongress": {
+      "Params": []
+    },
+    "MyScreen_Closed": {
+      "Params": []
+    },
+    "WorldCrisisTracker_EmergencyClicked": {
+      "Params": []
+    },
+    "AutomationGameEnded": {
+      "Params": []
+    },
+    "TradeRouteChooser_Open": {
+      "Params": []
+    },
+    "PartialScreenHooks_Realize": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenTradeOverview": {
+      "Params": []
+    },
+    "ProductionManager_SelectedIndexChanged": {
+      "Params": []
+    },
+    "CityPanel_PurchaseGoldOpen": {
+      "Params": []
+    },
+    "Raise_State_Transition": {
+      "Params": []
+    },
+    "Religion_CloseReligion": {
+      "Params": []
+    },
+    "PantheonChooser_CloseReligion": {
+      "Params": []
+    },
+    "ShowEnemyCityDetails": {
+      "Params": []
+    },
+    "WorldBuilderLaunchBar_OpenMapEditor": {
+      "Params": []
+    },
+    "RockBandMoviePopup_OpenRockBandPopup": {
+      "Params": []
+    },
+    "ToggleCivilopedia": {
+      "Params": []
+    },
+    "GreatPeoplePopup_ClearHeroes": {
+      "Params": []
+    },
+    "CityBannerManager_CityPanelOverview": {
+      "Params": []
+    },
+    "MainMenu_SetLoadGameServerType": {
+      "Params": []
+    },
+    "GreatPeople_CloseGreatPeople": {
+      "Params": []
+    },
+    "LeaderPicker_Initialize": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerCivicEdited": {
+      "Params": []
+    },
+    "Tutorial_ViewDiploIntel": {
+      "Params": []
+    },
+    "EndGameMenu_ViewingPlayerDefeat": {
+      "Params": []
+    },
+    "WorldInput_TouchPlotTooltipShow": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerTechEdited": {
+      "Params": []
+    },
+    "Tutorial_CloseAllPartialScreens": {
+      "Params": []
+    },
+    "HistoricMoments_Opened": {
+      "Params": []
+    },
+    "NotificationPanel_OpenDisloyalCityChooser": {
+      "Params": []
+    },
+    "AutomationGameStarted": {
+      "Params": []
+    },
+    "MyScreen_Opened": {
+      "Params": []
+    },
+    "PlotInfo_ShowYieldIcons": {
+      "Params": []
+    },
+    "WorldBuilderToolsPalette_SetTabHeader": {
+      "Params": []
+    },
+    "AdvisorPopup_ShowDetails": {
+      "Params": []
+    },
+    "MainMenu_ShowPiratesIntro": {
+      "Params": []
+    },
+    "DiplomacyRibbon_OpenDiplomacyActionView": {
+      "Params": []
+    },
+    "TopPanel_OpenReportsScreen": {
+      "Params": []
+    },
+    "AutomationRunTest": {
+      "Params": []
+    },
+    "WorldTracker_ToggleResearchPanel": {
+      "Params": []
+    },
+    "RockBandMoviePopup_Closed": {
+      "Params": []
+    },
+    "Tutorial_ResearchOpen": {
+      "Params": []
+    },
+    "WorldInput_MakeTradeRouteDestination": {
+      "Params": []
+    },
+    "Tutorial_RemoveUnitMoveRestrictions": {
+      "Params": []
+    },
+    "WorldBuilderMapTools_SetTabHeader": {
+      "Params": []
+    },
+    "PBCNotificationPopup_ShowYourTurn": {
+      "Params": []
+    },
+    "WorldBuilderRiverHighlight": {
+      "Params": []
+    },
+    "TutorialUIRoot_GoalMarkComplete": {
+      "Params": []
+    },
+    "Tutorial_ProductionOpen": {
+      "Params": []
+    },
+    "MainMenu_RaiseHostGame": {
+      "Params": []
+    },
+    "InGame_CloseInGameOptionsMenu": {
+      "Params": []
+    },
+    "WorldBuilderLaunchBar_OpenInGameMenu": {
+      "Params": []
+    },
+    "LaunchBar_OpenGreatWorksOverview": {
+      "Params": []
+    },
+    "NotificationPanel_OpenWorldCongressProposeEmergencies": {
+      "Params": []
+    },
+    "Tutorial_DisableMapSelect": {
+      "Params": []
+    },
+    "WorldBuilder_ShowMapEditor": {
+      "Params": []
+    },
+    "MultiSelectWindow_Initialize": {
+      "Params": []
+    },
+    "WorldCongressPopup_OnSpecialSessionNotificationDismissed": {
+      "Params": []
+    },
+    "NaturalWonderPopup_Shown": {
+      "Params": []
+    },
+    "GovernorPanel_Toggle": {
+      "Params": []
+    },
+    "ProjectBuiltPopup_Shown": {
+      "Params": []
+    },
+    "HeroesPopup_ShowNewHero": {
+      "Params": []
+    },
+    "TunerEnterDebugMode": {
+      "Params": []
+    },
+    "OnViewPowerLens": {
+      "Params": []
+    },
+    "DiploScene_CinemaSequence": {
+      "Params": []
+    },
+    "RockBandMoviePopup_Shown": {
+      "Params": []
+    },
+    "CivicChooser_ForceHideWorldTracker": {
+      "Params": []
+    },
+    "MultiplayerPopup": {
+      "Params": []
+    },
+    "Tutorial_HideYieldIcons": {
+      "Params": []
+    },
+    "DiploScene_RefreshTabs": {
+      "Params": []
+    },
+    "CityPanel_ToggleManageCitizens": {
+      "Params": []
+    },
+    "DiploScene_LeaderSelect": {
+      "Params": []
+    },
+    "NotificationPanel_ShowTechBoost": {
+      "Params": []
+    },
+    "ReportsList_OpenYields": {
+      "Params": []
+    },
+    "PlayerChange_Close": {
+      "Params": []
+    },
+    "Multiplayer_ExitShell": {
+      "Params": []
+    },
+    "ActionPanel_ObserverModeTurnBegin": {
+      "Params": []
+    },
+    "GreatWorks_OpenGreatWorks": {
+      "Params": []
+    },
+    "WorldBuilderToolsPalette_ChangeTool": {
+      "Params": []
+    },
+    "AutoPlayStart": {
+      "Params": []
+    },
+    "CongressButton_ResumeCongress": {
+      "Params": []
+    },
+    "LaunchBar_CloseCivicsTree": {
+      "Params": []
+    },
+    "OnRaisePopupInGame": {
+      "Params": []
+    },
+    "SetKickPlayer": {
+      "Params": []
+    },
+    "MapSearch_PanelClosed": {
+      "Params": []
+    },
+    "UnitPanel_PromoteUnit": {
+      "Params": []
+    },
+    "PantheonChooser_OpenReligion": {
+      "Params": []
+    },
+    "CityStatePicker_SetParameterValues": {
+      "Params": []
+    },
+    "TurnBlockerChooseProduction": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerAddedRemove": {
+      "Params": []
+    },
+    "MainMenu_ShowAdditionalContent": {
+      "Params": []
+    },
+    "SetCityCiv": {
+      "Params": []
+    },
+    "MainMenu_LaunchError": {
+      "Params": []
+    },
+    "WorldBuilderModeChangeRequest": {
+      "Params": []
+    },
+    "Lobby_RaiseHostGame": {
+      "Params": []
+    },
+    "JoiningRoom_Showing": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenMyScreen": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerTechEditedRemove": {
+      "Params": []
+    },
+    "Government_CloseGovernment": {
+      "Params": []
+    },
+    "WorldInput_TouchPlotTooltipHide": {
+      "Params": []
+    },
+    "TradeRouteChooser_RouteConsidered": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseMyScreen": {
+      "Params": []
+    },
+    "TutorialUIRoot_GoalAdd": {
+      "Params": []
+    },
+    "NotificationPanel_EmergencyClicked": {
+      "Params": []
+    },
+    "HistoricMoments_Closed": {
+      "Params": []
+    },
+    "TechCivicCompletedPopup_CivicShown": {
+      "Params": []
+    },
+    "CityPanel_ShowReligionTab": {
+      "Params": []
+    },
+    "WorldBuilder_PaintOpCompleted": {
+      "Params": []
+    },
+    "GlobalReportsList_OpenResources": {
+      "Params": []
+    },
+    "NotificationPanel_SecretSocietyJoined": {
+      "Params": []
+    },
+    "WorldTracker_SetMinimapSize": {
+      "Params": []
+    },
+    "TradeOriginChooser_SetTradeUnitStatus": {
+      "Params": []
+    },
+    "CityPanel_ShowBreakdownTab": {
+      "Params": []
+    },
+    "EspionageChooser_ShowMissionBriefing": {
+      "Params": []
+    },
+    "InGameTopOptionsMenu_SetLoadGameServerType": {
+      "Params": []
+    },
+    "DiploPopup_ShowMakeDemand": {
+      "Params": []
+    },
+    "NotificationPanel_OpenPantheonChooser": {
+      "Params": []
+    },
+    "CityBannerManager_ShowEnemyCityOverview": {
+      "Params": []
+    },
+    "LaunchBar_CloseTechTree": {
+      "Params": []
+    },
+    "CityBannerManager_ProductionToggle": {
+      "Params": []
+    },
+    "TunerExitDebugMode": {
+      "Params": []
+    },
+    "GovernmentScreen_PolicyTabOpen": {
+      "Params": []
+    },
+    "TradeRouteChooser_SetTradeUnitStatus": {
+      "Params": []
+    },
+    "LaunchBar_OpenGreatWorksShowcase": {
+      "Params": []
+    },
+    "UnitFlagManager_PointerExited": {
+      "Params": []
+    },
+    "PiratesIntro_StartMatchMaking": {
+      "Params": []
+    },
+    "LaunchBar_CloseGreatPeoplePopup": {
+      "Params": []
+    },
+    "WorldInput_ConfirmWarDialog": {
+      "Params": []
+    },
+    "AutomationComplete": {
+      "Params": []
+    },
+    "ProductionPanel_ToggleManager": {
+      "Params": []
+    },
+    "NotificationPanel_OpenEspionageEscape": {
+      "Params": []
+    },
+    "AutoPlayEnd": {
+      "Params": []
+    },
+    "LaunchBar_RaiseTechTree": {
+      "Params": []
+    },
+    "ProductionPanel_ListModeChanged": {
+      "Params": []
+    },
+    "PrideMoments_ToggleTimeline": {
+      "Params": []
+    },
+    "DiploPopup_DealUpdated": {
+      "Params": []
+    },
+    "LaunchBar_Resize": {
+      "Params": []
+    },
+    "EspionagePopup_MissionBriefingClosed": {
+      "Params": []
+    },
+    "CityPanelCulture_ToggleLoyalty": {
+      "Params": []
+    },
+    "CityBannerManager_MakeTradeRouteDestination": {
+      "Params": []
+    },
+    "RelicScreen_RelicScreenOpened": {
+      "Params": []
+    },
+    "GreatPeopleHeroPanel_Show": {
+      "Params": []
+    },
+    "WorldCongressPopup_ShowWorldCongressBetweenTurns": {
+      "Params": []
+    },
+    "ActionPanel_OpenChooseResearch": {
+      "Params": []
+    },
+    "ProductionPanel_OpenManager": {
+      "Params": []
+    },
+    "WorldBuilder_ContinentTypeEdited": {
+      "Params": []
+    },
+    "ReportsList_OpenResources": {
+      "Params": []
+    },
+    "WorldBuilder_ExitFSMap": {
+      "Params": []
+    },
+    "NotificationPanel_ShowRelicCreated": {
+      "Params": []
+    },
+    "LaunchBar_CloseGreatWorksOverview": {
+      "Params": []
+    },
+    "TunerMapRButtonDown": {
+      "Params": []
+    },
+    "ReportsList_OpenCityStatus": {
+      "Params": []
+    },
+    "TutorialUIRoot_DisableActions": {
+      "Params": []
+    },
+    "DiploScene_SceneOpened": {
+      "Params": []
+    },
+    "CityPanel_OpenOverview": {
+      "Params": []
+    },
+    "EraProgressPanel_Close": {
+      "Params": []
+    },
+    "NaturalDisasterPopup_Closed": {
+      "Params": []
+    },
+    "Tutorial_ViewDiploRelationship": {
+      "Params": []
+    },
+    "WorldTracker_ChatContainerSizeChanged": {
+      "Params": []
+    },
+    "HostGame_ShowStagingRoom": {
+      "Params": []
+    },
+    "RefreshTechBoostList": {
+      "Params": []
+    },
+    "WorldInput_WBMouseOverPlot": {
+      "Params": []
+    },
+    "Government_OpenGovernment": {
+      "Params": []
+    },
+    "DiplomacyActionView_HideCongress": {
+      "Params": []
+    },
+    "UIDebugModeEntered": {
+      "Params": []
+    },
+    "Tutorial_ClearAllUnitHexRestrictions": {
+      "Params": []
+    },
+    "LaunchBar_CheckPopupsOpen": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerRemoved": {
+      "Params": []
+    },
+    "PBCNotificationPopup_ShowUnseenComplete": {
+      "Params": []
+    },
+    "WorldInput_WBSelectPlot": {
+      "Params": []
+    },
+    "WorldRankings_CloseCityStates": {
+      "Params": []
+    },
+    "DiploScene_RefreshOverviewRows": {
+      "Params": []
+    },
+    "JoiningRoom_ShowStagingRoom": {
+      "Params": []
+    },
+    "StartKickVote": {
+      "Params": []
+    },
+    "TradeRouteChooser_ReOpen": {
+      "Params": []
+    },
+    "GovernorPanel_AssignDetails": {
+      "Params": []
+    },
+    "WorldTracker_OnSetMinimapCollapsed": {
+      "Params": []
+    },
+    "WorldBuilder_ShowPlayerEditorRemove": {
+      "Params": []
+    },
+    "WorldCongressBetweenTurns_ResumeCongress": {
+      "Params": []
+    },
+    "TutorialUIRoot_DisableSettleHintLens": {
+      "Params": []
+    },
+    "TutorialUIRoot_HideWorldPointer": {
+      "Params": []
+    },
+    "CityPanel_ShowOverviewPanel": {
+      "Params": []
+    },
+    "StagingRoom_EnsureHostGame": {
+      "Params": []
+    },
+    "CivicsChooser_RaiseCivicsTree": {
+      "Params": []
+    },
+    "GreatWorkCreated_OpenGreatWorksOverview": {
+      "Params": []
+    },
+    "PlotInfo_UpdatePlotTooltip": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseEspionage": {
+      "Params": []
+    },
+    "Tutorial_CloseDiploActionView": {
+      "Params": []
+    },
+    "CityStatePicker_SetParameterValue": {
+      "Params": []
+    },
+    "Tutorial_ViewDiploAccessLevel": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenEspionage": {
+      "Params": []
+    },
+    "ActionPanel_EndObserverMode": {
+      "Params": []
+    },
+    "TutorialUIRoot_GoalAutoRemove": {
+      "Params": []
+    },
+    "CityPanel_ToggleOverviewPower": {
+      "Params": []
+    },
+    "ProductionPanel_Open": {
+      "Params": []
+    },
+    "NotificationPanel_OpenCityStatesSendEnvoys": {
+      "Params": []
+    },
+    "TutorialGoals_Showing": {
+      "Params": []
+    },
+    "Launchbar_Expansion2_ClimateScreen_Close": {
+      "Params": []
+    },
+    "EraReviewPopup_Show": {
+      "Params": []
+    },
+    "TutorialUIRoot_GoalRemove": {
+      "Params": []
+    },
+    "CityPanel_ShowAmenitiesTab": {
+      "Params": []
+    },
+    "TutorialGoals_Hiding": {
+      "Params": []
+    },
+    "CityPanel_ProductionClose": {
+      "Params": []
+    },
+    "TutorialUIRoot_AdvisorRaise": {
+      "Params": []
+    },
+    "CityPanel_ShowCitizensTab": {
+      "Params": []
+    },
+    "TutorialUIRoot_DisableTechAndCivicPopups": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenWorldRankingsCulture": {
+      "Params": []
+    },
+    "NotificationPanel_OpenArtifactPanel": {
+      "Params": []
+    },
+    "Tutorial_SlowNextTurnEnable": {
+      "Params": []
+    },
+    "OpenCivilopedia": {
+      "Params": []
+    },
+    "UnitFlagManager_PointerEntered": {
+      "Params": []
+    },
+    "NotificationPanel_GovernmentOpenPolicies": {
+      "Params": []
+    },
+    "CityPanel_ToggleOverviewLoyalty": {
+      "Params": []
+    },
+    "Religion_OpenReligion": {
+      "Params": []
+    },
+    "CityPanel_ShowHousingTab": {
+      "Params": []
+    },
+    "CityBannerManager_RaiseMinorCivPanel": {
+      "Params": []
+    },
+    "LaunchBar_CloseReligionPanel": {
+      "Params": []
+    },
+    "OnViewReligionLens": {
+      "Params": []
+    },
+    "CityStatePicker_Initialize": {
+      "Params": []
+    },
+    "EditHotseatPlayer_UpdatePlayer": {
+      "Params": []
+    },
+    "DiploPopup_TalkToLeader": {
+      "Params": []
+    },
+    "UpdateFiraxisLiveState": {
+      "Params": []
+    },
+    "GovernorDetailsPanel_OpenDetails": {
+      "Params": []
+    },
+    "Tutorial_CityPanelOpen": {
+      "Params": []
+    },
+    "WorldBuilder_ShowMapEditorRemove": {
+      "Params": []
+    },
+    "WorldBuilder_ModeChanged": {
+      "Params": []
+    },
+    "NotificationPanel_UserNotificationActivate": {
+      "Params": []
+    },
+    "CityBannerManager_OpenTreatWithTribePopup": {
+      "Params": []
+    },
+    "NotificationPanel_GrievanceTalkToLeader": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerEditedRemove": {
+      "Params": []
+    },
+    "ProductionPanel_CloseManager": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerRemovedRemove": {
+      "Params": []
+    },
+    "LaunchBar_ClosePantheonChooser": {
+      "Params": []
+    },
+    "PartialScreenHooks_ToggleWorldRankings": {
+      "Params": []
+    },
+    "MainMenu_UserRequestClose": {
+      "Params": []
+    },
+    "FileListQueryResults": {
+      "Params": []
+    },
+    "AutomationAppUpdateComplete": {
+      "Params": []
+    },
+    "PartialScreenHooks_Expansion1_ToggleEraProgress": {
+      "Params": []
+    },
+    "Tutorial_AddUnitHexRestriction": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseAllExcept": {
+      "Params": []
+    },
+    "CityPanel_ProductionOpenForQueue": {
+      "Params": []
+    },
+    "TunerMapLButtonUp": {
+      "Params": []
+    },
+    "ClimateScreen_Opened": {
+      "Params": []
+    },
+    "UIDebugModeExited": {
+      "Params": []
+    },
+    "Tutorial_PlotToolTipsOn": {
+      "Params": []
+    },
+    "NotificationPanel_OpenRazeCityChooser": {
+      "Params": []
+    },
+    "TechCivicCompletedPopup_GovernmentOpenPolicies": {
+      "Params": []
+    },
+    "NaturalDisasterPopup_Shown": {
+      "Params": []
+    },
+    "NotificationPanel_HeroDiscovered": {
+      "Params": []
+    },
+    "ChatPanel_OnShown": {
+      "Params": []
+    },
+    "ActionPanel_OpenChooseCivic": {
+      "Params": []
+    },
+    "HostGame_SetLoadGameServerType": {
+      "Params": []
+    },
+    "DiplomacyActionView_ResumeCongress": {
+      "Params": []
+    },
+    "Tutorial_ForceHideWorldTracker": {
+      "Params": []
+    },
+    "StrategicView_MapPlacement_ClearDistrictPlacementShadowHexes": {
+      "Params": []
+    },
+    "NotificationPanel_ShowCivicBoost": {
+      "Params": []
+    },
+    "GovernorAssignmentChooser_Close": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerAdded": {
+      "Params": []
+    },
+    "DiplomacyActionView_ConfirmWarDialog": {
+      "Params": []
+    },
+    "DiploBasePopup_HideUI": {
+      "Params": []
+    },
+    "PlotInfo_HideYieldIcons": {
+      "Params": []
+    },
+    "GovernorPanel_Close": {
+      "Params": []
+    },
+    "GovernorPanel_ClosedDetails": {
+      "Params": []
+    },
+    "DiplomacyActionView_HideIngameUI": {
+      "Params": []
+    },
+    "Tutorial_ShowYieldIcons": {
+      "Params": []
+    },
+    "NotificationPanel_HeroExpired": {
+      "Params": []
+    },
+    "GreatPeopleHeroPanel_Close": {
+      "Params": []
+    },
+    "DiplomacyActionView_ShowIngameUI": {
+      "Params": []
+    },
+    "MinimapPanel_ToggleGrid": {
+      "Params": []
+    },
+    "Tutorial_DisableMapCancel": {
+      "Params": []
+    },
+    "CityStates_ConfirmWarDialog": {
+      "Params": []
+    },
+    "CityBannerManager_UpdateRangeStrike": {
+      "Params": []
+    },
+    "ProductionPanel_IsQueueOpen": {
+      "Params": []
+    },
+    "Advisor_ToggleTimeline": {
+      "Params": []
+    },
+    "LaunchBar_OpenGreatPeoplePopup": {
+      "Params": []
+    },
+    "NotificationPanel_OpenWorldCongressResults": {
+      "Params": []
+    },
+    "WorldCongress_OpenDiplomacyActionView": {
+      "Params": []
+    },
+    "TutorialUIRoot_FilterKeysDisabled": {
+      "Params": []
+    },
+    "CityPanelTabRefresh": {
+      "Params": []
+    },
+    "CityPanelOverview_Opened": {
+      "Params": []
+    },
+    "TradeOverview_SelectRouteFromOverview": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenCityStates": {
+      "Params": []
+    },
+    "ProductionPanel_CancelManagerSelection": {
+      "Params": []
+    },
+    "Tutorial_ClearAllHexMoveRestrictions": {
+      "Params": []
+    },
+    "FullscreenMap_Closed": {
+      "Params": []
+    },
+    "OnViewPlagueLens": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerCivicEditedRemove": {
+      "Params": []
+    },
+    "TutorialUIRoot_ShowWorldPointer": {
+      "Params": []
+    },
+    "MinimapPanel_RefreshMinimapOptions": {
+      "Params": []
+    },
+    "NotificationPanel_ShowCivicDiscovered": {
+      "Params": []
+    },
+    "InGame_OpenInGameOptionsMenu": {
+      "Params": []
+    },
+    "Tutorial_ContextDisableItems": {
+      "Params": []
+    },
+    "CityPanel_PurchaseFaithOpen": {
+      "Params": []
+    },
+    "GameDebug_Return": {
+      "Params": []
+    },
+    "WorldTracker_OnChatShown": {
+      "Params": []
+    },
+    "ClimateScreen_Closed": {
+      "Params": []
+    },
+    "LaunchBar_CloseGovernmentPanel": {
+      "Params": []
+    },
+    "LeaderPicker_SetParameterValues": {
+      "Params": []
+    },
+    "TechTree_OpenTechTree": {
+      "Params": []
+    },
+    "AutomationStopTest": {
+      "Params": []
+    },
+    "DiplomacyActionView_OpenLite": {
+      "Params": []
+    },
+    "EndGameMenu_Closed": {
+      "Params": []
+    },
+    "CityPanel_ToggleOverviewCitizens": {
+      "Params": []
+    },
+    "TopPanel_OpenDiplomacyActionView": {
+      "Params": []
+    },
+    "TutorialUIRoot_SimpleInGameMenu": {
+      "Params": []
+    },
+    "MapPinPopup_RequestMapPin": {
+      "Params": []
+    },
+    "MapSelect_ClearMapData": {
+      "Params": []
+    },
+    "TutorialUIRoot_CloseGoals": {
+      "Params": []
+    },
+    "EndGameMenu_OpenHistoricMoments": {
+      "Params": []
+    },
+    "CityPanel_ToggleOverviewReligion": {
+      "Params": []
+    },
+    "ResearchChooser_ForceHideWorldTracker": {
+      "Params": []
+    },
+    "WorldBuilder_StartPositionChanged": {
+      "Params": []
+    },
+    "CivicsPanel_RaiseCivicsTree": {
+      "Params": []
+    },
+    "LaunchBar_CloseChoosers": {
+      "Params": []
+    },
+    "MapSelect_PopulatedMaps": {
+      "Params": []
+    },
+    "UnitFlagManager_DrawRangeAttackPreview": {
+      "Params": []
+    },
+    "ProductionPanel_ProductionClicked": {
+      "Params": []
+    },
+    "CivicsTree_OpenCivicsTree": {
+      "Params": []
+    },
+    "NotificationPanel_SecretSocietyDiscovered": {
+      "Params": []
+    },
+    "MapTacks_Function": {
+      "Params": []
+    },
+    "StagingRoom_SetPlayerID": {
+      "Params": []
+    },
+    "FullscreenMap_Shown": {
+      "Params": []
+    },
+    "MapSearch_PanelOpened": {
+      "Params": []
+    },
+    "Tutorial_TutorialEndHideBulkUI": {
+      "Params": []
+    },
+    "NotificationPanel_GovernmentOpenGovernments": {
+      "Params": []
+    },
+    "GovernorAssignmentChooser_RequestAssignment": {
+      "Params": []
+    },
+    "UnitPanel_CivRoyaleScenarioShowUnitFlagCombatPreview": {
+      "Params": []
+    },
+    "ChangeMPLobbyMode": {
+      "Params": []
+    },
+    "NotificationPanel_ShowTechDiscovered": {
+      "Params": []
+    },
+    "WorldCongressPopup_HideWorldCongressBetweenTurns": {
+      "Params": []
+    },
+    "CivicBoostUnlockedPopup_RefreshCivicBoostList": {
+      "Params": []
+    },
+    "Civ6Common_ConfirmWarDialog": {
+      "Params": []
+    },
+    "TutorialUIRoot_EnableActions": {
+      "Params": []
+    },
+    "ProjectBuiltPopup_Closed": {
+      "Params": []
+    },
+    "MainMenu_ShowCivRoyaleIntro": {
+      "Params": []
+    },
+    "WorldInput_DragMapBegin": {
+      "Params": []
+    },
+    "Tutorial_ToggleInGameOptionsMenu": {
+      "Params": []
+    },
+    "Automation_AddToNarrationQueue": {
+      "Params": []
+    },
+    "TutorialUIRoot_GoalsLoadFromDisk": {
+      "Params": []
+    },
+    "GreatWorksOverview_ViewGreatWork": {
+      "Params": []
+    },
+    "MinimapPanel_CloseAllLenses": {
+      "Params": []
+    },
+    "LaunchBar_OpenPantheonChooser": {
+      "Params": []
+    },
+    "Tutorial_AddUnitMoveRestriction": {
+      "Params": []
+    },
+    "CivicChooser_RestoreWorldTracker": {
+      "Params": []
+    },
+    "FrontEndPopup_CloseConfirmationWithoutAction": {
+      "Params": []
+    },
+    "PBCNotifyRemind_ShowOptions": {
+      "Params": []
+    },
+    "TutorialUIRoot_OpenGoals": {
+      "Params": []
+    },
+    "LaunchBar_GovernmentOpenMyGovernment": {
+      "Params": []
+    },
+    "GreatWorks_CloseGreatWorks": {
+      "Params": []
+    },
+    "MapPinPopup_RequestChatPlayerTarget": {
+      "Params": []
+    },
+    "DiploPopup_HideDeal": {
+      "Params": []
+    },
+    "TradeRouteChooser_CloseIfPopups": {
+      "Params": []
+    },
+    "StrategicView_MapPlacement_AddDistrictPlacementShadowHexes": {
+      "Params": []
+    },
+    "WorldBuilderLaunchBar_OpenPlayerEditor": {
+      "Params": []
+    },
+    "AutomationPostGameInitialization": {
+      "Params": []
+    },
+    "TutorialUIRoot_EnableActionForAll": {
+      "Params": []
+    },
+    "WorldBuilder_ShowPlayerEditor": {
+      "Params": []
+    },
+    "OnPlagueLensOn": {
+      "Params": []
+    },
+    "OnViewLoyaltyLens": {
+      "Params": []
+    },
+    "AutomationMainMenuStarted": {
+      "Params": []
+    },
+    "UnitPanel_CancelMission": {
+      "Params": []
+    },
+    "TopPanel_CloseReportsScreen": {
+      "Params": []
+    },
+    "Tutorial_PlotToolTipsOff": {
+      "Params": []
+    },
+    "InGameTopOptionsMenu_Show": {
+      "Params": []
+    },
+    "Tutorial_RemoveUnitHexRestriction": {
+      "Params": []
+    },
+    "EndGameMenu_Shown": {
+      "Params": []
+    },
+    "MultiSelectWindow_SetParameterValues": {
+      "Params": []
+    },
+    "CivRoyaleIntro_StartMatchMaking": {
+      "Params": []
+    },
+    "Mods_UpdateHostGameSettings": {
+      "Params": []
+    },
+    "WonderBuiltPopup_Shown": {
+      "Params": []
+    },
+    "TutorialUIRoot_EnableTechAndCivicPopups": {
+      "Params": []
+    },
+    "ProductionPanel_Close": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseEraProgressPanel": {
+      "Params": []
+    },
+    "Tutorial_RestoreWorldTracker": {
+      "Params": []
+    },
+    "MinimapPanel_AddContinentColorPair": {
+      "Params": []
+    },
+    "GovernorPanel_Closed": {
+      "Params": []
+    },
+    "GreatPeoplePopup_RefreshHeroes": {
+      "Params": []
+    },
+    "WorldCongressIntro_ShowWorldCongress": {
+      "Params": []
+    },
+    "EndGameMenu_StartObserverMode": {
+      "Params": []
+    },
+    "StartCrossPlay": {
+      "Params": []
+    },
+    "InGameTopOptionsMenu_Close": {
+      "Params": []
+    },
+    "Advisor_GovernmentOpenPolicies": {
+      "Params": []
+    },
+    "GreatPeople_OpenGreatPeople": {
+      "Params": []
+    },
+    "ShowEndGame": {
+      "Params": []
+    },
+    "ChatPanel_OnChatReceived": {
+      "Params": []
+    },
+    "TechCivicCompletedPopup_GovernmentOpenGovernments": {
+      "Params": []
+    },
+    "GovernorPanel_CancelAssignment": {
+      "Params": []
+    },
+    "PlayerChange_OpenInGameOptionsMenu": {
+      "Params": []
+    },
+    "StateTransition_SignalRaised": {
+      "Params": []
+    },
+    "NotificationPanel_ChooseProduction": {
+      "Params": []
+    },
+    "NotificationPanel_ShowContinentLens": {
+      "Params": []
+    },
+    "WorldBuilder_PlayerEdited": {
+      "Params": []
+    },
+    "InGameTopOptionsMenu_ShowExpansionIntro": {
+      "Params": []
+    },
+    "TechCivicCompletedPopup_TechShown": {
+      "Params": []
+    },
+    "PausePanel_OpenInGameOptionsMenu": {
+      "Params": []
+    },
+    "GameDebug_GetValues": {
+      "Params": []
+    },
+    "WorldCongressPopup_DismissSpecialSessionNotification": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseTradeOverview": {
+      "Params": []
+    },
+    "PartialScreenHooks_CloseWorldRankings": {
+      "Params": []
+    },
+    "HistoricMoments_Close": {
+      "Params": []
+    },
+    "CityPanel_ProductionOpen": {
+      "Params": []
+    },
+    "EraProgressPanel_Open": {
+      "Params": []
+    },
+    "DiplomacyActionView_ShowCongressResults": {
+      "Params": []
+    },
+    "WonderBuiltPopup_Closed": {
+      "Params": []
+    },
+    "WorldTracker_ToggleCivicPanel": {
+      "Params": []
+    },
+    "StrageticView_MapPlacement_ProductionOpen": {
+      "Params": []
+    },
+    "LaunchBar_GovernmentOpenGovernments": {
+      "Params": []
+    },
+    "PantheonChooser_OpenReligionPanel": {
+      "Params": []
+    },
+    "UnitPanel_HideUnitPromotion": {
+      "Params": []
+    },
+    "Tutorial_EndTutorialRestrictions": {
+      "Params": []
+    },
+    "CityPanelOverview_CloseButton": {
+      "Params": []
+    },
+    "GovernorPanel_Open": {
+      "Params": []
+    },
+    "SwitchLayoutPopup_OpenSwitchLayoutPopup": {
+      "Params": []
+    },
+    "Tutorial_TechTreeScrollToNode": {
+      "Params": []
+    },
+    "MapSelect_SetMapByValue": {
+      "Params": []
+    },
+    "MainMenu_PlayCiv6Started": {
+      "Params": []
+    },
+    "PartialScreenHooks_Expansion2_MyScreen": {
+      "Params": []
+    },
+    "EraReviewPopup_MakeDedication": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenReportsList": {
+      "Params": []
+    },
+    "WorldTracker_OpenChooseResearch": {
+      "Params": []
+    },
+    "CivicsTree_CloseCivicsTree": {
+      "Params": []
+    },
+    "TradeRouteChooser_Close": {
+      "Params": []
+    },
+    "Tutorial_SwitchToWorldView": {
+      "Params": []
+    },
+    "DiploScene_SetDealAnimation": {
+      "Params": []
+    },
+    "ResearchChooser_RestoreWorldTracker": {
+      "Params": []
+    },
+    "Lower_State_Transition": {
+      "Params": []
+    },
+    "Tutorial_ConstrainMovement": {
+      "Params": []
+    },
+    "PartialScreenHooks_OpenWorldRankings": {
+      "Params": []
+    },
+    "DiploScene_SceneClosed": {
+      "Params": []
+    },
+    "EndGameMenu_OneMoreTurn": {
+      "Params": []
+    },
+    "LaunchBar_OpenReligionPanel": {
+      "Params": []
+    },
+    "CongressButton_ShowCongressResults": {
+      "Params": []
+    },
+    "LaunchBar_RaiseCivicsTree": {
+      "Params": []
+    },
+    "WorldBuilder_SetPlacementStatus": {
+      "Params": []
+    },
+    "CityPanel_ToggleOverviewBuildings": {
+      "Params": []
+    }
+  }
+}
