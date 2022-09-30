@@ -4720,15 +4720,6 @@
         ],
         "Invoker": ":"
       },
-      "ChangeDiplomaticFavor": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
       "ChangeScoringScenario1": {
         "GameplayContext": true,
         "UIContext": false,
@@ -7850,15 +7841,6 @@
         "Returns": [],
         "Invoker": "."
       },
-      "ViewWorkingDeal": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
       "ViewPendingDeal": {
         "GameplayContext": false,
         "UIContext": true,
@@ -8970,26 +8952,6 @@
           },
           {
             "Name": "y",
-            "DataType": "number",
-            "Desc": ""
-          }
-        ],
-        "Returns": [],
-        "Invoker": "."
-      },
-      "ChangePlayerEraScore": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [
-          {
-            "Name": "playerID",
-            "DataType": "number",
-            "Desc": ""
-          },
-          {
-            "Name": "amount",
             "DataType": "number",
             "Desc": ""
           }
@@ -19352,15 +19314,6 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "GenerateToolTips": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
       "GetDiplomaticModifiers": {
         "GameplayContext": false,
         "UIContext": true,
@@ -19381,24 +19334,6 @@
       },
       "GetDiplomaticState": {
         "GameplayContext": true,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
-      "GetNumToolTips": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
-      "GetToolTip": {
-        "GameplayContext": false,
         "UIContext": false,
         "Type": "Query",
         "Desc": "",
@@ -20768,15 +20703,6 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "GetAllianceLevelWithPlayer": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
       "GetAlliancePointsPerTurn": {
         "GameplayContext": false,
         "UIContext": true,
@@ -21593,36 +21519,9 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "GetIdentityPressure": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
-      "GetNeutralizedTurns": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
       "GetTurnsToEstablish": {
         "GameplayContext": false,
         "UIContext": true,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
-      "GetType": {
-        "GameplayContext": false,
-        "UIContext": false,
         "Type": "Query",
         "Desc": "",
         "Args": [],
@@ -21644,54 +21543,9 @@
         ],
         "Invoker": ":"
       },
-      "HasPromotion": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [
-          {
-            "Name": "[True/False]",
-            "DataType": "boolean",
-            "Desc": ""
-          }
-        ],
-        "Invoker": ":"
-      },
       "HasTitleBeenConsidered": {
         "GameplayContext": false,
         "UIContext": true,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [
-          {
-            "Name": "[True/False]",
-            "DataType": "boolean",
-            "Desc": ""
-          }
-        ],
-        "Invoker": ":"
-      },
-      "IsEstablished": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [
-          {
-            "Name": "[True/False]",
-            "DataType": "boolean",
-            "Desc": ""
-          }
-        ],
-        "Invoker": ":"
-      },
-      "IsGovernCityState": {
-        "GameplayContext": false,
-        "UIContext": false,
         "Type": "Query",
         "Desc": "",
         "Args": [],
@@ -22419,15 +22273,6 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "GetResourceImportedPerTurn": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
       "GetResourceStockpileCap": {
         "GameplayContext": false,
         "UIContext": true,
@@ -23031,21 +22876,6 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "HasBeenBoosted": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [
-          {
-            "Name": "[True/False]",
-            "DataType": "boolean",
-            "Desc": ""
-          }
-        ],
-        "Invoker": ":"
-      },
       "HasBoostBeenTriggered": {
         "GameplayContext": true,
         "UIContext": true,
@@ -23470,15 +23300,6 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "SetMilitaryFormation": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
       "RecomputeAllCosts": {
         "GameplayContext": true,
         "UIContext": false,
@@ -23687,15 +23508,6 @@
             "Desc": ""
           }
         ],
-        "Invoker": ":"
-      },
-      "GetNumRevealedNexes": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
         "Invoker": ":"
       },
       "GetState": {
@@ -25020,21 +24832,6 @@
         ],
         "Invoker": ":"
       },
-      "GetComponentID": {
-        "GameplayContext": true,
-        "UIContext": true,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [
-          {
-            "Name": "componentIDs",
-            "DataType": "table",
-            "Desc": ""
-          }
-        ],
-        "Invoker": ":"
-      },
       "GetDamage": {
         "GameplayContext": true,
         "UIContext": true,
@@ -25889,21 +25686,6 @@
         "Returns": [],
         "Invoker": ":"
       },
-      "GetLifespan": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [
-          {
-            "Name": "amount",
-            "DataType": "number",
-            "Desc": ""
-          }
-        ],
-        "Invoker": ":"
-      },
       "GetRockBand": {
         "GameplayContext": false,
         "UIContext": true,
@@ -25932,15 +25714,6 @@
             "Desc": ""
           }
         ],
-        "Invoker": ":"
-      },
-      "SetRenown": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
         "Invoker": ":"
       },
       "GetUpgradeResourceCost": {
@@ -25990,30 +25763,6 @@
         "Type": "Query",
         "Desc": "",
         "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
-      "GetRenown": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": ":"
-      },
-      "SetLifespan": {
-        "GameplayContext": false,
-        "UIContext": false,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [
-          {
-            "Name": "amount",
-            "DataType": "number",
-            "Desc": ""
-          }
-        ],
         "Returns": [],
         "Invoker": ":"
       },
@@ -34304,15 +34053,6 @@
         ],
         "Invoker": "."
       },
-      "ZoomMap": {
-        "GameplayContext": false,
-        "UIContext": true,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
       "GetManualSaveUsageSize": {
         "GameplayContext": false,
         "UIContext": true,
@@ -34562,15 +34302,6 @@
         "Returns": [],
         "Invoker": "."
       },
-      "ExitGame": {
-        "GameplayContext": false,
-        "UIContext": true,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
       "SetPushDataIDClosed": {
         "GameplayContext": false,
         "UIContext": true,
@@ -34739,15 +34470,6 @@
         "Returns": [],
         "Invoker": "."
       },
-      "DataAssert": {
-        "GameplayContext": false,
-        "UIContext": true,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
       "GetColors": {
         "GameplayContext": false,
         "UIContext": true,
@@ -34896,15 +34618,6 @@
         "Invoker": "."
       },
       "GetSaveLocationPath": {
-        "GameplayContext": false,
-        "UIContext": true,
-        "Type": "Query",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
-      "GetWorldFromNormalizedScr": {
         "GameplayContext": false,
         "UIContext": true,
         "Type": "Query",
@@ -35355,15 +35068,6 @@
         "Invoker": "."
       },
       "SelectDistrictID": {
-        "GameplayContext": false,
-        "UIContext": true,
-        "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
-      "PostKeyMessage": {
         "GameplayContext": false,
         "UIContext": true,
         "Type": "Action",
@@ -35901,15 +35605,6 @@
         "GameplayContext": false,
         "UIContext": true,
         "Type": "Action",
-        "Desc": "",
-        "Args": [],
-        "Returns": [],
-        "Invoker": "."
-      },
-      "SetLayerHexes": {
-        "GameplayContext": false,
-        "UIContext": true,
-        "Type": "Query",
         "Desc": "",
         "Args": [],
         "Returns": [],
@@ -37363,7 +37058,7 @@
           {
             "Name": "command",
             "DataType": "string",
-            "Desc": "See https://docs.google.com/document/u/0/d/1nb2VnsaCdLU4arKtzU0kHv5WtMRT3c6krpl9nOam3XU"
+            "Desc": "commands"
           }
         ],
         "Returns": [],
